@@ -1,0 +1,40 @@
+#include <iostream>
+#include <queue>
+#include <stack>
+using namespace std;
+
+int isPalindrome(queue<int> q) {
+    stack<int> s;
+    int size = q.size();
+
+    // Push all elements to stack
+    for (int i = 0; i < size; i++) {
+        s.push(q.front());
+        q.push(q.front());
+        q.pop();
+    }
+
+    // Check for palindrome
+    for (int i = 0; i < size; i++) {
+        if (q.front() != s.top()) return false;
+        q.pop();
+        s.pop();
+    }
+    return true;
+}
+
+int main() {
+    queue<int> q;
+    q.push(1);
+    q.push(4);
+    q.push(5);
+    q.push(7);
+    q.push(2);
+
+    if (isPalindrome(q)) {
+        cout << "palindrome" << endl;
+    } else {
+        cout << "not a palindrome" << endl;
+    }
+    return 0;
+}

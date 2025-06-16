@@ -1,0 +1,32 @@
+Compile and Run from Command Line
+
+cd /d F:\Chatapp
+
+Compile the Server:
+g++ server.cpp -o ChatServer -lws2_32 -std=c++11
+
+Compile the Client:
+g++ client.cpp -o ChatClient -lws2_32 -std=c++11
+
+Run the Server:
+ChatServer.exe
+
+Run the Client (in a separate Command Prompt window):
+ChatClient.exe
+
+
+Easy 
+
+Server
+cd /d F:\Chatapp
+g++ server.cpp -o ChatServer -lws2_32 -std=c++11
+ChatServer.exe
+
+Client
+cd /d F:\Chatapp
+g++ client.cpp -o ChatClient -lws2_32 -std=c++11
+ChatClient.exe
+
+
+
+

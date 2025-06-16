@@ -1,0 +1,38 @@
+#include <iostream>
+#include <stack>
+#include <string>
+using namespace std;
+
+int main() {
+    stack<string> textEditor;
+    string action;
+    int choice;
+
+    while(true) {
+        cout << "1. Add text\n";
+        cout << "2. Undo\n";
+        cout << "3. Exit\n";
+        cout << "Enter your choice: ";
+        cin >> choice;
+
+        if(choice == 1) {
+            cout << "Enter text to add: ";
+            cin.ignore();
+            getline(cin, action);
+            textEditor.push(action);
+        } else if(choice == 2) {
+            if(textEditor.empty()) {
+                cout << "Nothing to undo.\n";
+            } else {
+                cout << "Undoing: " << textEditor.top() << endl;
+                textEditor.pop();
+            }
+        } else if(choice == 3) {
+            break;
+        } else {
+            cout << "Invalid choice. Please try again.\n";
+        }
+    }
+
+    return 0;
+}

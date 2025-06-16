@@ -1,0 +1,32 @@
+#include <iostream>
+#include <stack>
+#include <string>
+using namespace std;
+
+bool isPalindrome(const string& word) {
+    stack<char> charStack;
+    for (char c : word) {
+        charStack.push(c);
+    }
+
+    for (char c : word) {
+        if (c != charStack.top()) {
+            return false;
+        }
+        charStack.pop();
+    }
+    return true;
+}
+
+int main() {
+    string word;
+    cout << "Enter a word: ";
+    cin >> word;
+
+    if (isPalindrome(word)) {
+        cout << word << " is a palindrome." << std::endl;
+    } else {
+        cout << word << " is not a palindrome." << std::endl;
+    }
+    return 0;
+}

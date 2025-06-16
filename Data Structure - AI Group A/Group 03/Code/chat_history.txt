@@ -1,0 +1,26 @@
+[36mSystem[0m: admin1 has joined the chat
+[36mSystem[0m: admin1 has left the chat
+[36mSystem[0m:  has joined the chat
+[36mSystem[0m:  has left the chat
+[36mSystem[0m: admin has joined the chat
+[36mSystem[0m: talal has joined the chat
+[32mtalal[0m: hello admin
+[32madmin[0m: how are you
+[36mSystem[0m: admin has left the chat
+[36mSystem[0m: talal has left the chat
+[36mSystem[0m: waleed has joined the chat
+[36mSystem[0m: Talal has joined the chat
+[32mTalal[0m: hello
+[32mwaleed[0m: hi
+[32mwaleed[0m: how are you
+[32mTalal[0m: efwfwfwfwfwfewewewewewewewewewewewewew
+[36mSystem[0m: waleed has left the chat
+[36mSystem[0m: Talal has left the chat
+[36mSystem[0m: Ali has joined the chat
+[32mAli[0m: A
+[36mSystem[0m: Ali has left the chat
+[36mSystem[0m: Ali has joined the chat
+[32mAli[0m: A
+[32mAli[0m: /Feed
+[32mAli[0m: /Post Waleed
+[32mAli[0m: /Post taha

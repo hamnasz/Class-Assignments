@@ -1,0 +1,37 @@
+#include <iostream>
+#include <stack>
+using namespace std;
+
+int main() {
+    stack<string> history;
+    int choice;
+    string page;
+
+    while(true) {
+        cout << "1. Visit new page\n";
+        cout << "2. Go back\n";
+        cout << "3. Exit\n";
+        cout << "Enter your choice: ";
+        cin >> choice;
+
+        if(choice == 1) {
+            cout << "Enter page URL: ";
+            cin >> page;
+            history.push(page);
+            cout << "Visited: " << page << endl;
+        } else if(choice == 2) {
+            if(history.empty()) {
+                cout << "No previous page to go back to.\n";
+            } else {
+                cout << "Going back from: " << history.top() << endl;
+                history.pop();
+            }
+        } else if(choice == 3) {
+            break;
+        } else {
+            cout << "Invalid choice. Please try again.\n";
+        }
+    }
+
+    return 0;
+}

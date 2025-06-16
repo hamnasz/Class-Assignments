@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int arr[10] = {1, 1, 1, 4, 5, 5, 7, 8, 9, 10}; 
+    int sum = 0;
+    for(int i = 0; i < 10; i++) {
+        sum += arr[i];
+    }
+    float average = sum / 10.0;
+    cout << "Sum: " << sum << endl;
+    cout << "Average: " << average << endl;
+
+    return 0;
+}
