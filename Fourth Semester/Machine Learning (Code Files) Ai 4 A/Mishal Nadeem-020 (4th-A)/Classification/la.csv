@@ -1,0 +1,1001 @@
+ApplicantIncome,LoanAmount,CreditScore,EmploymentStatus,MaritalStatus,LoanTermMonths,Dependents,Education,LoanStatus
+9270,565,664,Unemployed,Married,36,2,Not Graduate,1
+2860,703,625,Employed,Married,60,0,Not Graduate,0
+7390,781,766,Self-employed,Married,60,2,Graduate,1
+7191,928,713,Unemployed,Single,12,3,Not Graduate,1
+13964,633,754,Unemployed,Married,48,2,Graduate,1
+13284,504,532,Self-employed,Married,12,3,Not Graduate,1
+7734,937,523,Employed,Married,,4,Graduate,1
+8265,612,711,Employed,Married,24,0,Not Graduate,1
+2466,744,634,Self-employed,Single,24,4,Graduate,0
+6426,332,521,Unemployed,Single,12,1,Not Graduate,1
+57578,623,336,Employed,Married,60,2,Graduate,1
+13636,445,577,Employed,Single,24,1,Graduate,1
+13363,145,495,Employed,Married,60,,Not Graduate,1
+13111,645,783,Employed,Married,24,4,Not Graduate,1
+10322,177,541,Self-employed,Single,60,3,Graduate,1
+3685,829,623,Employed,Single,36,3,Graduate,0
+2769,912,491,Unemployed,Married,60,2,Graduate,0
+12583,172,316,Self-employed,Married,60,3,Graduate,1
+8949,893,823,Employed,Single,12,4,Not Graduate,1
+4433,348,700,Self-employed,Married,36,3,Graduate,1
+7311,146,321,Employed,Single,48,4,Graduate,1
+7051,220,773,Employed,Married,12,1,Graduate,1
+8420,313,419,Self-employed,Married,48,4,Not Graduate,1
+3184,338,509,Self-employed,Single,24,0,Graduate,1
+6555,155,605,Self-employed,Single,48,0,Not Graduate,1
+5385,449,569,Employed,Single,60,0,Not Graduate,1
+14309,206,584,Employed,Single,48,2,Not Graduate,1
+8396,930,526,Self-employed,Single,12,2,Not Graduate,1
+13096,147,680,Employed,Single,12,2,Not Graduate,1
+10666,672,759,Employed,Single,48,4,Not Graduate,1
+11274,436,306,Employed,Married,12,2,Not Graduate,1
+4558,125,328,Self-employed,Married,12,1,Graduate,1
+9849,903,332,Employed,Married,48,0,Graduate,1
+4047,356,378,Self-employed,Single,36,4,Not Graduate,1
+4747,107,758,Unemployed,Single,36,0,Graduate,1
+11167,724,837,Employed,Single,24,2,Graduate,1
+11998,966,781,Employed,Married,12,4,Not Graduate,1
+2189,352,729,Employed,Single,48,3,Graduate,1
+4734,791,584,Unemployed,Single,12,1,Not Graduate,0
+5005,818,815,Employed,Married,60,2,Graduate,1
+6658,402,398,Employed,Single,12,2,Not Graduate,1
+3899,738,696,Employed,Married,12,1,Not Graduate,1
+9734,155,788,Self-employed,Married,36,1,Graduate,1
+3267,825,338,Employed,Single,48,3,Graduate,0
+3528,625,570,Self-employed,Single,12,2,Not Graduate,0
+13394,573,456,Unemployed,Single,36,2,Not Graduate,1
+5556,127,374,Employed,Married,24,0,Not Graduate,1
+5890,177,429,Self-employed,Married,36,4,Graduate,1
+10838,315,383,Employed,Married,36,4,Graduate,1
+13080,485,321,Unemployed,Single,36,0,Graduate,1
+7393,464,758,Self-employed,Single,12,4,Graduate,1
+12627,765,838,Unemployed,Single,12,,Not Graduate,1
+10792,625,681,Employed,Single,24,4,Not Graduate,1
+12555,798,739,Employed,Married,60,4,Not Graduate,1
+12253,411,320,Employed,Married,60,0,Not Graduate,1
+10433,982,602,Employed,Married,60,3,Graduate,1
+12233,106,383,Employed,Married,24,4,Not Graduate,1
+13016,102,752,Employed,Single,60,4,Not Graduate,1
+9513,722,686,Employed,Single,60,3,Graduate,1
+4612,849,806,Employed,Single,36,0,Graduate,1
+9041,462,556,Self-employed,Married,12,3,Not Graduate,1
+11555,850,826,Employed,Married,12,0,Graduate,1
+8235,607,461,Employed,Single,36,1,Not Graduate,1
+7486,373,462,Employed,Single,36,0,Graduate,1
+9099,605,823,Employed,Married,36,1,Graduate,1
+11670,905,570,Unemployed,Single,12,1,Not Graduate,1
+12748,838,791,Employed,Married,60,0,Graduate,1
+2775,982,507,Self-employed,Married,36,2,Not Graduate,0
+14206,114,838,Unemployed,Married,24,0,Graduate,1
+10226,291,359,Self-employed,Single,36,4,Graduate,1
+5152,730,729,Self-employed,Single,48,4,Graduate,1
+12147,584,608,Self-employed,Married,36,2,Graduate,1
+3585,127,819,Unemployed,Single,12,1,Graduate,1
+5943,813,326,Self-employed,Married,36,2,Not Graduate,0
+9555,138,498,Employed,Married,48,4,Graduate,1
+5073,372,686,Self-employed,Married,24,2,Not Graduate,1
+3021,330,648,Employed,Married,60,0,Graduate,1
+13653,185,835,Self-employed,Single,36,2,Not Graduate,1
+12805,573,677,Employed,Married,48,1,Graduate,1
+5843,225,826,Employed,Married,48,0,Not Graduate,1
+9989,911,452,Employed,Single,24,3,Not Graduate,1
+11692,636,505,Employed,Married,12,4,Graduate,1
+14990,244,754,Employed,Married,36,4,Graduate,1
+8873,624,572,Employed,Single,48,2,Graduate,1
+7675,311,535,Employed,Single,24,0,Not Graduate,1
+2161,124,820,Employed,Single,60,3,Not Graduate,1
+6297,679,800,Self-employed,Married,48,0,Graduate,1
+12173,493,416,Employed,Single,24,4,Graduate,1
+2995,166,685,Employed,Single,12,0,Not Graduate,1
+13534,332,643,Self-employed,Married,12,3,Not Graduate,1
+14743,208,694,Employed,Married,48,2,Graduate,1
+9629,245,363,Employed,Married,48,1,Not Graduate,1
+13990,210,371,Unemployed,Married,36,0,Graduate,1
+11467,327,573,Unemployed,Married,24,1,Graduate,1
+3016,210,619,Employed,Single,48,4,Graduate,1
+9869,569,637,Employed,Single,36,2,Not Graduate,1
+8439,133,665,Unemployed,Single,36,2,Not Graduate,1
+9892,722,794,Self-employed,Married,48,0,Not Graduate,1
+8863,875,465,Employed,Married,12,2,Not Graduate,1
+9916,468,843,Self-employed,Married,24,0,Graduate,1
+10529,847,310,Employed,Single,24,0,Not Graduate,1
+2878,694,600,Employed,Single,12,1,Graduate,0
+11268,653,401,Employed,Married,48,2,Graduate,1
+6887,524,724,Self-employed,Single,24,0,Graduate,1
+14185,712,691,Employed,Married,48,1,Not Graduate,1
+6859,617,513,Self-employed,Single,48,3,Graduate,1
+8331,791,387,Employed,Single,36,1,Graduate,1
+10571,381,700,Employed,Single,12,1,Not Graduate,1
+10684,419,345,Employed,Married,48,0,Graduate,1
+9208,837,762,Self-employed,Single,60,4,Not Graduate,1
+7276,542,609,Employed,Single,12,4,Not Graduate,1
+4062,414,385,Employed,Married,24,4,Not Graduate,1
+14076,976,391,Unemployed,Single,36,1,Graduate,1
+2064,840,541,Employed,Married,24,0,Not Graduate,0
+10006,476,301,Unemployed,Married,24,2,Not Graduate,1
+4568,388,524,Employed,Married,12,1,Not Graduate,1
+7463,536,415,Self-employed,Married,24,1,Not Graduate,1
+4027,761,402,Employed,Married,48,0,Graduate,0
+4695,376,493,Unemployed,Single,24,3,Not Graduate,1
+11687,809,465,Employed,Married,36,1,Graduate,1
+7258,681,389,Employed,Married,36,3,Not Graduate,1
+7618,602,421,Employed,Married,60,3,Graduate,1
+8736,723,442,Employed,Married,36,4,Not Graduate,1
+2391,615,405,Employed,Single,24,0,Graduate,0
+14706,449,727,Unemployed,Married,36,3,Not Graduate,1
+14666,942,604,Employed,Single,12,0,Graduate,1
+7892,545,616,Self-employed,Married,36,4,Graduate,1
+5561,929,308,Self-employed,Single,48,0,Graduate,0
+12470,449,372,Self-employed,Married,12,1,Not Graduate,1
+8184,706,658,Employed,Married,60,3,Graduate,1
+5099,763,522,Employed,Single,48,0,Graduate,0
+8278,922,715,Self-employed,Married,24,2,Graduate,1
+10392,236,669,Unemployed,Single,24,0,Graduate,1
+5104,858,563,Employed,Married,24,3,Not Graduate,0
+9215,998,617,Employed,Single,48,4,Graduate,1
+14790,342,383,Employed,Married,48,4,Graduate,1
+4454,642,617,Unemployed,Married,48,3,Graduate,1
+13837,139,410,Employed,Single,12,1,Not Graduate,1
+10996,328,550,Employed,Married,12,1,Graduate,1
+4731,647,682,Unemployed,Married,24,4,Graduate,1
+12965,322,306,Employed,Married,36,4,Graduate,1
+10154,105,758,Employed,Married,24,3,Graduate,1
+11762,421,383,Self-employed,Married,60,1,Not Graduate,1
+7056,567,507,Unemployed,Married,12,4,Graduate,1
+10110,831,689,Employed,Single,48,1,Graduate,1
+12882,174,613,Employed,Single,12,4,Not Graduate,1
+5840,103,321,Employed,Single,48,0,Not Graduate,1
+3028,946,709,Employed,Married,60,2,Not Graduate,0
+9385,745,814,Self-employed,Single,60,0,Graduate,1
+2502,217,426,Employed,Married,12,4,Not Graduate,1
+8910,980,313,Employed,Married,48,2,Graduate,1
+14685,705,311,Employed,Married,60,2,Not Graduate,1
+11062,603,386,Employed,Married,24,4,Graduate,1
+8938,673,823,Employed,Single,24,4,Not Graduate,1
+6488,540,836,Unemployed,Married,48,1,Graduate,1
+2206,293,600,Employed,Single,12,4,Not Graduate,1
+7134,946,542,Self-employed,Married,60,3,Graduate,1
+7977,814,421,Self-employed,Single,12,4,Graduate,1
+9721,491,446,Employed,Single,24,3,Graduate,1
+9035,125,655,Employed,Single,60,4,Graduate,1
+3484,534,608,Employed,Single,12,1,Graduate,1
+9858,272,587,Employed,Single,36,3,Graduate,1
+2863,399,606,Employed,Single,48,0,Graduate,1
+4790,744,848,Employed,Married,48,3,Graduate,1
+9408,425,651,Employed,Single,36,1,Not Graduate,1
+10755,509,611,Self-employed,Married,24,3,Graduate,1
+7116,217,358,Employed,Single,60,4,Graduate,1
+14383,935,334,Self-employed,Married,48,4,Not Graduate,1
+8019,886,744,Employed,Single,36,1,Graduate,1
+3757,823,392,Unemployed,Single,36,2,Not Graduate,0
+9574,324,506,Employed,Married,24,4,Graduate,1
+8374,631,652,Employed,Single,24,0,Not Graduate,1
+8892,212,631,Self-employed,Single,12,1,Not Graduate,1
+3678,239,458,Employed,Single,48,3,Graduate,1
+5242,658,323,Employed,Married,12,3,Not Graduate,0
+6636,100,703,Unemployed,Single,36,0,Graduate,1
+3059,189,815,Employed,Married,60,4,Graduate,1
+8668,753,663,Employed,Single,60,1,Graduate,1
+11914,419,681,Self-employed,Single,24,0,Graduate,1
+13506,649,831,Unemployed,Married,60,4,Not Graduate,1
+5157,904,451,Self-employed,Single,60,1,Graduate,0
+7915,993,719,Employed,Single,60,3,Not Graduate,1
+12817,238,549,Self-employed,Married,36,1,Not Graduate,1
+12921,610,416,Employed,Single,60,2,Graduate,1
+11789,967,811,Self-employed,Married,60,1,Graduate,1
+13252,944,634,Unemployed,Married,60,2,Graduate,1
+4693,358,717,Self-employed,Married,12,1,Graduate,1
+5627,772,594,Unemployed,Single,36,2,Not Graduate,1
+11555,789,670,Employed,Married,24,3,Graduate,1
+12173,109,485,Self-employed,Married,12,4,Not Graduate,1
+7450,360,545,Self-employed,Single,48,2,Graduate,1
+3663,749,567,Employed,Married,36,2,Graduate,0
+11721,271,536,Unemployed,Single,36,3,Graduate,1
+12230,997,829,Employed,Single,48,2,Graduate,1
+7592,112,320,Self-employed,Single,48,0,Not Graduate,1
+13494,267,819,Self-employed,Single,48,3,Not Graduate,1
+12429,741,399,Self-employed,Married,24,0,Graduate,1
+9392,695,777,Employed,Married,60,3,Not Graduate,1
+3306,420,597,Employed,Married,36,2,Not Graduate,1
+14221,418,825,Employed,Married,60,0,Graduate,1
+8776,712,633,Unemployed,Married,60,2,Graduate,1
+12867,428,301,Employed,Single,48,3,Not Graduate,1
+7864,884,674,Employed,Married,24,2,Not Graduate,1
+11474,876,592,Self-employed,Married,12,0,Not Graduate,1
+9526,649,617,Employed,Married,24,0,Not Graduate,1
+10901,518,801,Self-employed,Single,60,2,Graduate,1
+7575,705,680,Self-employed,Single,24,1,Graduate,1
+7530,194,313,Unemployed,Married,48,3,Not Graduate,1
+14936,916,803,Employed,Single,12,3,Graduate,1
+6413,680,530,Employed,Married,48,2,Not Graduate,1
+5748,417,383,Employed,Married,12,1,Not Graduate,1
+14971,335,429,Employed,Single,60,0,Graduate,1
+2663,433,444,Employed,Single,12,4,Not Graduate,0
+3998,984,327,Employed,Married,12,4,Not Graduate,0
+9994,475,365,Self-employed,Married,12,2,Graduate,1
+13637,558,462,Self-employed,Single,24,1,Graduate,1
+13935,236,528,Employed,Married,24,1,Not Graduate,1
+3495,687,560,Self-employed,Single,60,3,Not Graduate,0
+5304,646,748,Unemployed,Married,12,0,Graduate,1
+5763,612,723,Self-employed,Single,36,1,Not Graduate,1
+7232,395,759,Self-employed,Married,60,4,Not Graduate,1
+3853,419,600,Employed,Married,12,0,Graduate,1
+8585,671,602,Employed,Single,12,0,Graduate,1
+14851,931,586,Employed,Married,24,2,Graduate,1
+3291,448,694,Employed,Married,60,1,Graduate,1
+5581,939,309,Unemployed,Single,12,2,Graduate,0
+13649,878,569,Self-employed,Married,12,1,Graduate,1
+9554,972,660,Employed,Married,60,3,Not Graduate,1
+9280,328,556,Employed,Married,36,2,Not Graduate,1
+3636,369,432,Self-employed,Single,60,2,Graduate,1
+5696,927,575,Employed,Single,60,4,Graduate,0
+13191,897,812,Employed,Single,36,2,Not Graduate,1
+13344,390,612,Unemployed,Married,60,1,Not Graduate,1
+2698,824,583,Employed,Married,12,4,Not Graduate,0
+12352,264,420,Employed,Married,60,2,Graduate,1
+14289,104,406,Employed,Married,36,2,Graduate,1
+6737,950,503,Unemployed,Single,48,3,Not Graduate,0
+2854,478,464,Employed,Married,60,2,Graduate,0
+10164,177,604,Employed,Married,24,0,Graduate,1
+7855,509,796,Employed,Married,12,4,Graduate,1
+9392,673,455,Employed,Single,12,0,Not Graduate,1
+8528,231,666,Employed,Married,24,4,Not Graduate,1
+13666,700,550,Self-employed,Married,24,3,Graduate,1
+7249,848,633,Employed,Married,60,2,Graduate,1
+7172,141,810,Unemployed,Married,24,2,Graduate,1
+3707,188,592,Employed,Married,48,2,Graduate,1
+12969,501,319,Employed,Single,36,4,Graduate,1
+7791,395,581,Employed,Married,24,2,Not Graduate,1
+11925,939,300,Employed,Married,24,0,Graduate,1
+7535,394,418,Employed,Married,48,2,Graduate,1
+6931,715,334,Employed,Married,12,3,Graduate,1
+5510,625,497,Employed,Married,12,0,Not Graduate,1
+2202,899,784,Self-employed,Married,60,2,Not Graduate,0
+13447,790,358,Employed,Married,48,2,Graduate,1
+6218,736,460,Self-employed,Married,36,1,Not Graduate,1
+14688,521,505,Unemployed,Married,36,4,Not Graduate,1
+10958,964,311,Employed,Married,48,0,Not Graduate,1
+6389,122,789,Employed,Single,36,1,Not Graduate,1
+4327,674,575,Employed,Single,12,3,Not Graduate,1
+10004,242,541,Employed,Single,36,4,Not Graduate,1
+4931,764,515,Employed,Single,36,0,Graduate,0
+9777,244,550,Self-employed,Married,48,2,Not Graduate,1
+2197,324,425,Employed,Single,48,0,Not Graduate,0
+9125,602,516,Employed,Single,36,2,Graduate,1
+3930,920,605,Self-employed,Married,24,4,Graduate,0
+13774,715,484,Employed,Single,48,2,Graduate,1
+8287,203,338,Self-employed,Single,60,3,Graduate,1
+10800,138,522,Employed,Married,60,2,Not Graduate,1
+13464,297,483,Employed,Married,12,3,Not Graduate,1
+11339,745,794,Employed,Married,36,4,Not Graduate,1
+6282,678,726,Employed,Single,24,4,Not Graduate,1
+13589,490,477,Unemployed,Single,12,0,Graduate,1
+4511,278,727,Employed,Married,36,3,Not Graduate,1
+11986,653,593,Unemployed,Married,48,3,Not Graduate,1
+2659,547,450,Employed,Single,60,1,Graduate,0
+4811,599,683,Employed,Married,24,1,Not Graduate,1
+9098,114,607,Employed,Single,60,1,Not Graduate,1
+8546,722,635,Employed,Married,48,2,Not Graduate,1
+11561,768,674,Unemployed,Married,36,1,Not Graduate,1
+3986,388,307,Employed,Single,48,3,Graduate,1
+10338,577,640,Employed,Married,48,2,Graduate,1
+13411,330,428,Employed,Married,60,4,Graduate,1
+4911,519,651,Employed,Married,24,0,Graduate,1
+3734,256,657,Employed,Single,48,1,Graduate,1
+3843,649,816,Employed,Married,60,4,Not Graduate,1
+10680,540,794,Self-employed,Married,24,3,Not Graduate,1
+4976,196,385,Employed,Married,36,0,Graduate,1
+3959,510,474,Employed,Married,36,4,Graduate,1
+7759,388,492,Employed,Married,12,0,Graduate,1
+8694,353,610,Employed,Married,60,1,Not Graduate,1
+4385,295,418,Unemployed,Single,24,3,Graduate,1
+13111,697,517,Employed,Single,48,0,Not Graduate,1
+6736,933,726,Employed,Married,36,4,Not Graduate,1
+3802,621,713,Self-employed,Single,24,1,Not Graduate,1
+10155,616,413,Employed,Single,60,1,Not Graduate,1
+10120,734,444,Employed,Married,12,4,Graduate,1
+8616,941,837,Unemployed,Single,36,4,Not Graduate,1
+7534,964,602,Self-employed,Single,24,0,Not Graduate,1
+6061,217,644,Unemployed,Single,24,2,Graduate,1
+13561,905,300,Employed,Single,24,1,Not Graduate,1
+2262,258,446,Employed,Single,60,0,Not Graduate,1
+8287,914,586,Employed,Single,60,4,Not Graduate,1
+10815,327,352,Employed,Single,60,0,Graduate,1
+11208,976,603,Self-employed,Single,48,4,Not Graduate,1
+13835,315,368,Employed,Married,24,3,Not Graduate,1
+4049,795,660,Self-employed,Married,36,4,Graduate,0
+7423,114,519,Self-employed,Single,60,4,Graduate,1
+13915,256,460,Employed,Single,60,4,Not Graduate,1
+6548,747,388,Employed,Married,24,2,Not Graduate,1
+5108,360,458,Self-employed,Single,60,4,Graduate,1
+14282,256,788,Employed,Single,48,1,Not Graduate,1
+9158,146,623,Self-employed,Married,48,1,Graduate,1
+12248,423,680,Employed,Married,60,0,Not Graduate,1
+9400,943,401,Employed,Married,24,2,Graduate,1
+5170,784,793,Employed,Single,24,0,Not Graduate,1
+11874,229,318,Unemployed,Single,24,1,Graduate,1
+4255,510,753,Employed,Married,12,1,Graduate,1
+3154,194,781,Self-employed,Married,60,3,Graduate,1
+6499,726,696,Employed,Single,24,4,Graduate,1
+8295,854,578,Self-employed,Married,48,1,Graduate,1
+8197,391,664,Self-employed,Single,36,0,Not Graduate,1
+13383,893,630,Employed,Single,36,0,Not Graduate,1
+11888,910,643,Employed,Married,24,4,Graduate,1
+14183,382,754,Self-employed,Married,36,4,Not Graduate,1
+14915,168,364,Employed,Single,36,3,Not Graduate,1
+14874,759,375,Self-employed,Married,12,2,Not Graduate,1
+3648,110,442,Employed,Married,48,0,Not Graduate,1
+7539,353,772,Unemployed,Married,48,4,Not Graduate,1
+11637,941,716,Self-employed,Married,12,0,Not Graduate,1
+6199,971,604,Unemployed,Single,12,4,Graduate,0
+14115,649,796,Employed,Single,36,1,Not Graduate,1
+10445,233,590,Employed,Single,60,0,Not Graduate,1
+13375,811,401,Employed,Single,36,1,Not Graduate,1
+4557,122,566,Employed,Married,12,0,Graduate,1
+7592,914,302,Employed,Married,48,2,Not Graduate,0
+2098,445,384,Employed,Single,36,3,Not Graduate,0
+4200,401,627,Self-employed,Single,60,1,Not Graduate,1
+4961,462,749,Employed,Married,36,4,Graduate,1
+6973,495,753,Employed,Single,24,2,Not Graduate,1
+6433,317,520,Self-employed,Single,36,0,Graduate,1
+13969,240,453,Employed,Married,12,1,Not Graduate,1
+4869,715,311,Employed,Single,48,0,Graduate,0
+13426,309,432,Unemployed,Married,48,0,Graduate,1
+13983,722,603,Unemployed,Married,12,0,Graduate,1
+2956,715,592,Employed,Single,24,3,Not Graduate,0
+14259,927,599,Employed,Married,12,3,Graduate,1
+10352,782,342,Self-employed,Single,36,4,Graduate,1
+7699,559,642,Employed,Married,12,1,Graduate,1
+8944,455,625,Employed,Single,12,2,Graduate,1
+6493,423,797,Employed,Single,24,2,Not Graduate,1
+11492,232,663,Employed,Single,36,2,Not Graduate,1
+6911,987,726,Employed,Married,60,0,Not Graduate,1
+5987,904,320,Employed,Married,60,3,Not Graduate,0
+11719,939,706,Self-employed,Single,48,1,Graduate,1
+8015,226,635,Unemployed,Married,12,0,Not Graduate,1
+3218,205,416,Employed,Single,48,3,Graduate,1
+6496,703,423,Self-employed,Single,24,3,Not Graduate,1
+6735,898,698,Unemployed,Married,60,1,Not Graduate,1
+13296,477,350,Employed,Single,12,1,Not Graduate,1
+12927,150,623,Employed,Married,24,1,Graduate,1
+6555,128,440,Self-employed,Single,24,0,Not Graduate,1
+11146,561,769,Employed,Married,12,4,Not Graduate,1
+10050,395,633,Self-employed,Single,24,1,Not Graduate,1
+14757,396,672,Employed,Single,12,4,Graduate,1
+5446,825,793,Unemployed,Married,12,0,Not Graduate,1
+3045,878,838,Employed,Single,36,4,Not Graduate,0
+8893,506,455,Employed,Single,48,2,Graduate,1
+3693,868,590,Self-employed,Married,24,4,Graduate,0
+5436,913,443,Employed,Single,24,1,Not Graduate,0
+10754,712,405,Employed,Married,36,0,Not Graduate,1
+12677,504,719,Employed,Single,36,1,Not Graduate,1
+7895,445,301,Employed,Married,36,2,Graduate,1
+5354,721,389,Employed,Single,60,1,Graduate,0
+2225,519,644,Unemployed,Single,60,1,Graduate,0
+6893,281,649,Employed,Single,60,1,Not Graduate,1
+9022,924,758,Self-employed,Married,12,3,Graduate,1
+11151,100,562,Self-employed,Married,24,2,Not Graduate,1
+7600,930,650,Unemployed,Married,48,1,Graduate,1
+14740,666,407,Employed,Married,12,1,Graduate,1
+13259,470,338,Unemployed,Single,24,1,Graduate,1
+9996,760,458,Employed,Single,24,0,Not Graduate,1
+11007,530,611,Self-employed,Married,36,3,Not Graduate,1
+14946,408,540,Self-employed,Married,36,0,Not Graduate,1
+9683,236,744,Self-employed,Married,12,3,Not Graduate,1
+6642,301,597,Employed,Single,36,1,Graduate,1
+13312,535,335,Self-employed,Married,24,2,Not Graduate,1
+9679,412,383,Employed,Married,36,4,Graduate,1
+10208,216,751,Self-employed,Single,60,4,Not Graduate,1
+9339,765,684,Unemployed,Single,36,1,Not Graduate,1
+11435,902,471,Employed,Married,24,0,Graduate,1
+4205,674,675,Unemployed,Single,12,2,Graduate,0
+12716,343,661,Employed,Married,48,3,Not Graduate,1
+3069,636,440,Employed,Single,36,1,Not Graduate,0
+5444,701,417,Employed,Married,24,2,Graduate,0
+12757,174,576,Employed,Married,48,2,Graduate,1
+3060,905,519,Self-employed,Married,48,3,Graduate,0
+4327,485,325,Employed,Married,60,2,Graduate,1
+5420,309,820,Employed,Single,48,0,Graduate,1
+2301,574,309,Unemployed,Single,24,0,Not Graduate,0
+14468,517,677,Self-employed,Single,24,0,Not Graduate,1
+2606,446,451,Self-employed,Single,36,2,Not Graduate,0
+5170,628,348,Unemployed,Married,36,0,Not Graduate,0
+2699,739,453,Self-employed,Married,36,3,Graduate,0
+7088,975,592,Employed,Single,48,2,Graduate,1
+11331,862,349,Employed,Single,48,4,Graduate,1
+2190,278,830,Self-employed,Single,60,2,Not Graduate,1
+12492,281,359,Employed,Single,36,3,Graduate,1
+2980,763,466,Self-employed,Single,12,4,Graduate,0
+4975,124,501,Employed,Married,60,2,Not Graduate,1
+8102,279,445,Employed,Married,12,0,Not Graduate,1
+3184,809,738,Employed,Married,48,1,Not Graduate,0
+5327,600,541,Self-employed,Single,60,1,Graduate,1
+5394,955,782,Employed,Single,60,0,Graduate,1
+10319,260,407,Self-employed,Single,24,1,Not Graduate,1
+12257,276,525,Employed,Single,48,1,Not Graduate,1
+3816,384,731,Employed,Married,48,0,Graduate,1
+7854,162,718,Unemployed,Married,60,0,Not Graduate,1
+8709,761,754,Self-employed,Single,48,2,Graduate,1
+2569,765,459,Employed,Married,60,2,Not Graduate,0
+7442,255,822,Self-employed,Married,24,0,Not Graduate,1
+3895,981,376,Employed,Single,60,3,Not Graduate,0
+4733,568,808,Employed,Single,48,1,Graduate,1
+5863,148,740,Employed,Single,48,2,Graduate,1
+14913,948,553,Self-employed,Single,60,1,Not Graduate,1
+9455,183,619,Self-employed,Single,60,4,Graduate,1
+6014,460,562,Employed,Single,60,0,Not Graduate,1
+13093,788,673,Unemployed,Married,36,3,Not Graduate,1
+3686,247,466,Employed,Married,48,4,Graduate,1
+5009,729,758,Employed,Single,48,4,Graduate,1
+9806,441,579,Employed,Married,36,4,Graduate,1
+2154,575,601,Employed,Single,60,0,Graduate,0
+12729,162,830,Employed,Single,24,2,Not Graduate,1
+3409,800,517,Employed,Single,60,0,Graduate,0
+14249,459,401,Self-employed,Single,60,2,Graduate,1
+2784,660,587,Employed,Married,36,4,Not Graduate,0
+13367,426,466,Employed,Single,48,4,Not Graduate,1
+10096,868,335,Employed,Married,60,3,Not Graduate,1
+9560,835,652,Employed,Single,48,2,Not Graduate,1
+14533,240,372,Employed,Single,12,4,Graduate,1
+9343,314,652,Self-employed,Single,48,1,Graduate,1
+9206,534,369,Employed,Married,24,3,Not Graduate,1
+7596,990,724,Self-employed,Single,24,0,Not Graduate,1
+7801,822,816,Unemployed,Single,60,3,Graduate,1
+4806,417,727,Employed,Single,48,1,Graduate,1
+2537,131,838,Self-employed,Married,60,2,Graduate,1
+7986,769,459,Employed,Married,36,0,Graduate,1
+3841,384,448,Self-employed,Married,24,0,Graduate,1
+12647,404,529,Employed,Single,60,2,Not Graduate,1
+10716,528,366,Employed,Married,36,3,Not Graduate,1
+8971,576,680,Employed,Single,60,4,Not Graduate,1
+7625,385,357,Employed,Married,48,3,Not Graduate,1
+4950,243,558,Employed,Married,48,1,Graduate,1
+9992,523,641,Employed,Single,48,4,Not Graduate,1
+14323,118,429,Employed,Married,48,3,Graduate,1
+6780,117,471,Unemployed,Single,12,2,Graduate,1
+14307,868,508,Self-employed,Single,36,1,Graduate,1
+4368,689,653,Employed,Married,36,1,Graduate,1
+14039,470,770,Employed,Single,48,1,Graduate,1
+8655,274,415,Unemployed,Single,12,4,Graduate,1
+10173,293,563,Self-employed,Married,48,0,Graduate,1
+6495,601,741,Self-employed,Married,12,4,Not Graduate,1
+12893,212,847,Employed,Single,48,3,Graduate,1
+11163,213,752,Employed,Married,24,0,Not Graduate,1
+8002,321,776,Employed,Single,24,3,Not Graduate,1
+8614,777,586,Employed,Single,60,0,Graduate,1
+11358,930,602,Self-employed,Married,48,4,Graduate,1
+7919,743,610,Self-employed,Married,36,1,Not Graduate,1
+12966,996,507,Employed,Married,60,2,Not Graduate,1
+12174,363,745,Unemployed,Married,24,1,Not Graduate,1
+2853,154,354,Employed,Single,48,4,Not Graduate,1
+6146,970,311,Employed,Single,60,0,Graduate,0
+13928,742,699,Employed,Married,48,1,Graduate,1
+5769,899,814,Unemployed,Married,24,4,Graduate,1
+2574,877,841,Employed,Single,60,3,Not Graduate,0
+13453,557,536,Unemployed,Single,24,2,Graduate,1
+3148,977,578,Self-employed,Single,12,1,Not Graduate,0
+8293,261,647,Employed,Single,24,0,Graduate,1
+8457,479,403,Employed,Married,48,3,Not Graduate,1
+9509,186,816,Unemployed,Single,36,4,Graduate,1
+11907,154,547,Employed,Single,24,2,Graduate,1
+6777,575,663,Unemployed,Married,36,0,Not Graduate,1
+5854,899,620,Unemployed,Single,12,4,Not Graduate,0
+4491,277,585,Employed,Single,60,4,Not Graduate,1
+12852,490,448,Employed,Married,60,1,Not Graduate,1
+5124,448,383,Unemployed,Married,36,1,Not Graduate,1
+7691,107,705,Self-employed,Married,60,0,Graduate,1
+5051,932,755,Employed,Single,24,4,Not Graduate,1
+2004,412,460,Employed,Single,36,1,Graduate,0
+7222,858,759,Employed,Married,48,2,Graduate,1
+7315,934,849,Unemployed,Married,24,2,Graduate,1
+6869,542,799,Self-employed,Single,24,4,Graduate,1
+2876,866,808,Self-employed,Married,24,1,Graduate,0
+11183,427,780,Employed,Married,48,0,Not Graduate,1
+9027,153,413,Employed,Married,12,0,Not Graduate,1
+6142,860,660,Unemployed,Single,60,0,Graduate,1
+8966,338,640,Employed,Single,36,2,Graduate,1
+9079,328,748,Employed,Single,12,1,Not Graduate,1
+9987,678,479,Employed,Single,36,1,Not Graduate,1
+8799,150,706,Self-employed,Single,60,2,Graduate,1
+14556,708,495,Unemployed,Single,48,0,Not Graduate,1
+6465,703,765,Employed,Married,24,0,Not Graduate,1
+2635,363,610,Employed,Single,24,4,Not Graduate,1
+3693,517,561,Self-employed,Single,48,3,Graduate,1
+11874,902,718,Unemployed,Married,12,1,Not Graduate,1
+6752,195,705,Employed,Single,12,1,Graduate,1
+10311,187,442,Employed,Single,36,1,Graduate,1
+2830,177,641,Employed,Married,48,3,Graduate,1
+13867,387,615,Unemployed,Married,12,4,Graduate,1
+7177,219,400,Employed,Married,48,3,Graduate,1
+11561,913,543,Employed,Single,60,0,Not Graduate,1
+10932,590,789,Self-employed,Married,24,0,Graduate,1
+10308,551,311,Self-employed,Single,24,1,Graduate,1
+7949,599,538,Employed,Single,24,2,Graduate,1
+4838,264,341,Unemployed,Single,48,1,Not Graduate,1
+3150,281,728,Employed,Single,48,2,Not Graduate,1
+9560,568,457,Employed,Married,36,3,Not Graduate,1
+3931,834,515,Employed,Married,24,0,Not Graduate,0
+11204,922,761,Self-employed,Single,36,2,Not Graduate,1
+3664,106,433,Employed,Married,24,3,Not Graduate,1
+3081,429,366,Unemployed,Single,36,0,Not Graduate,0
+14921,874,306,Self-employed,Single,36,2,Graduate,1
+2512,772,825,Self-employed,Single,60,1,Graduate,0
+13041,250,372,Self-employed,Married,36,1,Not Graduate,1
+9805,184,698,Self-employed,Single,48,1,Graduate,1
+7237,246,704,Employed,Single,36,3,Graduate,1
+2559,723,429,Employed,Married,24,1,Not Graduate,0
+5672,480,765,Unemployed,Married,36,4,Graduate,1
+14775,647,505,Employed,Married,12,0,Graduate,1
+9404,384,565,Self-employed,Married,24,3,Not Graduate,1
+5343,799,836,Unemployed,Single,12,1,Graduate,1
+6070,181,552,Employed,Married,24,0,Not Graduate,1
+14991,613,588,Self-employed,Single,48,2,Not Graduate,1
+11662,996,463,Employed,Married,48,1,Graduate,1
+2580,914,394,Employed,Married,48,0,Graduate,0
+9004,808,409,Employed,Married,12,4,Graduate,1
+12486,622,635,Employed,Married,60,2,Not Graduate,1
+10130,845,537,Self-employed,Married,24,4,Not Graduate,1
+5147,485,680,Self-employed,Married,48,0,Not Graduate,1
+6249,806,735,Self-employed,Single,24,4,Graduate,1
+3679,570,782,Employed,Married,12,0,Graduate,1
+5506,218,324,Employed,Married,60,0,Not Graduate,1
+9253,495,416,Self-employed,Married,12,4,Graduate,1
+4744,631,781,Employed,Married,24,0,Graduate,1
+13548,360,691,Unemployed,Single,60,1,Not Graduate,1
+14237,904,836,Self-employed,Married,60,0,Not Graduate,1
+11435,355,378,Self-employed,Married,12,3,Graduate,1
+7188,833,472,Unemployed,Married,48,0,Not Graduate,1
+13310,325,311,Employed,Married,24,3,Graduate,1
+4141,152,427,Self-employed,Single,36,0,Not Graduate,1
+13251,966,391,Employed,Married,36,0,Not Graduate,1
+14740,599,842,Unemployed,Single,12,4,Not Graduate,1
+13151,605,831,Employed,Married,24,1,Graduate,1
+12457,953,746,Self-employed,Single,24,1,Graduate,1
+8617,463,689,Unemployed,Single,12,2,Not Graduate,1
+4479,379,342,Employed,Married,24,4,Not Graduate,1
+8484,692,553,Employed,Married,48,4,Not Graduate,1
+14838,813,429,Self-employed,Single,12,1,Graduate,1
+11827,257,359,Employed,Single,48,4,Not Graduate,1
+9421,731,766,Employed,Married,24,1,Not Graduate,1
+11949,158,586,Employed,Single,12,4,Not Graduate,1
+6452,826,816,Employed,Single,24,0,Not Graduate,1
+12262,227,766,Unemployed,Single,12,1,Graduate,1
+7881,835,644,Employed,Married,24,1,Graduate,1
+8665,820,681,Employed,Single,48,3,Not Graduate,1
+4849,981,552,Employed,Single,48,4,Graduate,0
+13443,214,355,Employed,Single,24,4,Graduate,1
+9390,308,762,Employed,Married,12,1,Graduate,1
+8905,625,756,Employed,Married,36,0,Not Graduate,1
+13922,620,382,Employed,Single,48,0,Graduate,1
+4489,651,398,Employed,Married,48,0,Graduate,0
+11823,336,448,Self-employed,Single,36,4,Graduate,1
+13008,380,628,Employed,Married,24,3,Not Graduate,1
+11207,458,455,Self-employed,Married,12,1,Not Graduate,1
+11540,300,489,Employed,Single,24,2,Graduate,1
+6611,857,793,Employed,Married,60,3,Graduate,1
+13279,377,562,Self-employed,Married,48,2,Not Graduate,1
+4839,334,379,Employed,Married,60,3,Not Graduate,1
+10527,593,699,Unemployed,Single,48,0,Graduate,1
+7878,103,559,Self-employed,Married,48,4,Graduate,1
+14784,765,400,Employed,Married,60,2,Not Graduate,1
+11087,541,658,Self-employed,Single,60,3,Not Graduate,1
+8303,128,679,Self-employed,Married,24,4,Graduate,1
+13738,208,520,Employed,Married,60,2,Not Graduate,1
+2851,709,719,Employed,Married,24,1,Graduate,0
+3687,826,423,Employed,Married,24,3,Graduate,0
+12123,904,721,Unemployed,Married,24,1,Graduate,1
+8833,174,530,Self-employed,Single,48,0,Not Graduate,1
+13938,937,362,Unemployed,Single,48,1,Graduate,1
+4427,245,784,Self-employed,Married,60,1,Graduate,1
+11760,227,782,Employed,Married,48,3,Not Graduate,1
+6000,952,818,Employed,Married,60,0,Not Graduate,1
+7052,141,454,Self-employed,Single,48,1,Graduate,1
+4738,455,391,Employed,Single,12,4,Graduate,1
+13690,140,825,Unemployed,Married,12,2,Not Graduate,1
+7732,133,754,Employed,Married,60,1,Not Graduate,1
+7387,116,809,Employed,Single,48,0,Not Graduate,1
+10002,776,482,Self-employed,Married,48,1,Graduate,1
+7536,252,685,Self-employed,Single,24,2,Graduate,1
+5913,477,704,Employed,Single,36,0,Graduate,1
+3066,687,545,Self-employed,Married,60,3,Not Graduate,0
+9723,698,770,Employed,Single,36,0,Graduate,1
+6380,728,722,Self-employed,Married,36,3,Not Graduate,1
+12636,973,364,Self-employed,Married,60,0,Graduate,1
+6107,441,312,Unemployed,Married,48,2,Not Graduate,1
+7726,126,512,Self-employed,Married,60,2,Graduate,1
+5373,924,541,Employed,Married,36,0,Graduate,0
+14161,386,792,Employed,Married,48,1,Not Graduate,1
+12738,745,512,Unemployed,Single,12,2,Not Graduate,1
+10945,830,637,Employed,Single,60,3,Graduate,1
+4082,267,472,Unemployed,Single,60,3,Not Graduate,1
+12966,709,463,Employed,Single,48,4,Not Graduate,1
+13088,367,764,Self-employed,Married,12,3,Graduate,1
+14377,848,796,Self-employed,Single,12,4,Not Graduate,1
+10967,920,694,Unemployed,Single,48,0,Graduate,1
+8748,554,607,Employed,Single,24,0,Graduate,1
+11817,784,482,Self-employed,Married,60,0,Not Graduate,1
+13261,500,809,Employed,Single,60,1,Not Graduate,1
+2417,575,845,Employed,Married,36,1,Graduate,1
+10306,801,526,Self-employed,Single,48,4,Graduate,1
+10808,733,735,Self-employed,Married,36,3,Graduate,1
+5974,657,721,Unemployed,Married,36,3,Graduate,1
+5267,675,320,Employed,Single,12,0,Graduate,0
+2825,229,696,Employed,Married,60,2,Graduate,1
+9668,921,404,Employed,Married,36,1,Not Graduate,1
+7745,462,491,Employed,Single,12,1,Not Graduate,1
+11708,804,316,Employed,Single,48,0,Not Graduate,1
+13338,918,419,Self-employed,Single,36,1,Graduate,1
+2412,792,692,Employed,Married,60,0,Not Graduate,0
+9543,391,724,Unemployed,Married,36,4,Graduate,1
+9587,470,428,Unemployed,Married,48,3,Graduate,1
+2728,893,429,Self-employed,Single,36,2,Not Graduate,0
+13540,128,328,Unemployed,Married,60,3,Graduate,1
+9164,248,396,Self-employed,Married,12,3,Graduate,1
+13000,878,309,Employed,Married,60,4,Graduate,1
+10867,395,541,Employed,Married,12,1,Graduate,1
+13657,110,531,Employed,Married,24,2,Graduate,1
+7988,611,583,Employed,Married,60,1,Graduate,1
+4504,775,499,Unemployed,Married,60,3,Not Graduate,0
+4967,212,378,Employed,Single,48,0,Graduate,1
+4786,286,472,Unemployed,Single,36,3,Graduate,1
+3122,906,766,Self-employed,Single,12,1,Graduate,0
+6079,843,715,Employed,Married,12,3,Graduate,1
+3571,326,748,Unemployed,Married,48,0,Not Graduate,1
+7073,409,386,Employed,Single,48,4,Not Graduate,1
+7104,197,400,Employed,Married,36,1,Graduate,1
+4143,154,307,Self-employed,Single,36,3,Graduate,1
+11879,722,499,Employed,Married,60,1,Graduate,1
+8806,763,804,Self-employed,Married,24,4,Not Graduate,1
+9357,857,386,Employed,Single,36,3,Not Graduate,1
+14324,505,342,Employed,Single,48,3,Not Graduate,1
+14043,168,684,Unemployed,Single,36,1,Not Graduate,1
+5440,411,734,Employed,Single,12,1,Graduate,1
+5766,388,707,Employed,Single,24,0,Not Graduate,1
+7644,861,782,Employed,Married,60,4,Not Graduate,1
+12518,647,316,Unemployed,Married,12,0,Graduate,1
+4914,850,447,Employed,Married,12,3,Graduate,0
+6968,247,576,Employed,Single,24,1,Not Graduate,1
+7917,566,531,Employed,Single,60,3,Not Graduate,1
+14144,838,665,Employed,Single,48,3,Not Graduate,1
+10787,343,527,Self-employed,Single,60,2,Not Graduate,1
+2728,590,735,Self-employed,Single,36,2,Graduate,0
+3365,948,698,Employed,Single,12,3,Graduate,0
+6492,606,510,Self-employed,Married,36,1,Not Graduate,1
+2698,464,690,Employed,Married,48,3,Not Graduate,1
+9186,581,798,Unemployed,Married,36,2,Not Graduate,1
+2395,300,839,Unemployed,Married,60,1,Not Graduate,1
+9400,253,790,Employed,Married,36,3,Not Graduate,1
+10082,549,741,Unemployed,Single,48,4,Graduate,1
+6171,600,560,Self-employed,Single,48,4,Graduate,1
+6360,172,649,Employed,Single,48,3,Graduate,1
+4502,812,651,Employed,Single,60,1,Not Graduate,1
+12011,395,819,Employed,Single,48,3,Not Graduate,1
+2717,116,619,Self-employed,Single,12,3,Graduate,1
+4782,740,437,Unemployed,Married,48,2,Graduate,0
+6946,316,849,Self-employed,Single,36,4,Not Graduate,1
+13769,160,667,Unemployed,Single,36,2,Graduate,1
+7486,715,519,Self-employed,Single,36,2,Not Graduate,1
+10335,141,636,Self-employed,Single,60,3,Not Graduate,1
+6980,124,522,Self-employed,Married,36,2,Graduate,1
+13332,138,659,Employed,Married,60,4,Graduate,1
+9266,902,628,Employed,Single,60,2,Graduate,1
+6491,230,762,Self-employed,Married,48,4,Not Graduate,1
+9192,597,681,Employed,Married,12,2,Not Graduate,1
+13130,328,468,Self-employed,Single,48,4,Graduate,1
+7588,207,516,Employed,Single,48,2,Not Graduate,1
+9651,271,677,Employed,Single,60,2,Not Graduate,1
+5636,534,418,Self-employed,Single,60,1,Not Graduate,1
+13414,577,489,Employed,Single,36,4,Graduate,1
+3167,201,669,Employed,Married,36,4,Not Graduate,1
+12808,965,448,Employed,Single,48,4,Graduate,1
+3062,623,787,Unemployed,Single,24,0,Graduate,0
+4156,374,673,Employed,Single,24,2,Not Graduate,1
+9860,712,459,Unemployed,Married,36,4,Graduate,1
+7161,143,650,Employed,Single,24,0,Not Graduate,1
+7305,916,587,Unemployed,Single,36,1,Graduate,1
+13174,116,587,Unemployed,Single,60,4,Graduate,1
+8541,429,525,Employed,Married,48,4,Not Graduate,1
+13486,668,822,Employed,Single,12,0,Graduate,1
+6729,922,821,Employed,Single,48,2,Graduate,1
+11348,596,572,Self-employed,Single,36,1,Graduate,1
+9330,914,701,Employed,Married,36,4,Not Graduate,1
+7334,111,482,Employed,Single,48,2,Not Graduate,1
+10924,417,787,Employed,Single,36,1,Graduate,1
+6330,691,423,Employed,Single,24,3,Graduate,1
+10010,315,713,Employed,Married,24,3,Graduate,1
+8801,438,471,Self-employed,Single,36,1,Not Graduate,1
+6846,875,587,Unemployed,Single,36,0,Not Graduate,1
+8731,760,734,Employed,Single,24,1,Graduate,1
+9241,180,412,Employed,Married,36,1,Not Graduate,1
+2953,826,421,Employed,Married,36,0,Not Graduate,0
+4539,584,843,Self-employed,Single,48,0,Not Graduate,1
+9056,473,521,Unemployed,Married,12,2,Not Graduate,1
+13516,809,338,Unemployed,Married,24,2,Graduate,1
+13493,299,796,Unemployed,Married,48,0,Not Graduate,1
+3542,636,532,Employed,Single,12,3,Not Graduate,0
+7293,565,829,Self-employed,Single,36,3,Graduate,1
+3191,188,448,Self-employed,Married,36,1,Graduate,1
+8313,367,696,Employed,Married,48,4,Not Graduate,1
+13185,754,601,Unemployed,Married,36,1,Not Graduate,1
+8938,670,659,Employed,Single,60,1,Graduate,1
+4681,588,537,Self-employed,Single,48,4,Graduate,1
+11409,976,535,Employed,Married,12,0,Graduate,1
+3540,637,502,Employed,Married,48,3,Not Graduate,0
+8172,146,555,Self-employed,Married,24,1,Not Graduate,1
+13428,387,534,Employed,Married,48,4,Graduate,1
+7541,877,644,Employed,Single,36,2,Not Graduate,1
+12578,115,833,Employed,Married,36,1,Graduate,1
+13911,810,765,Self-employed,Single,60,3,Not Graduate,1
+11580,500,840,Employed,Married,60,0,Graduate,1
+12048,893,512,Employed,Married,60,1,Graduate,1
+3365,185,762,Unemployed,Married,12,1,Not Graduate,1
+10691,349,735,Self-employed,Married,60,4,Not Graduate,1
+11872,490,582,Employed,Married,12,2,Not Graduate,1
+10702,881,762,Self-employed,Single,60,2,Not Graduate,1
+9494,434,706,Self-employed,Married,12,0,Not Graduate,1
+6312,728,387,Unemployed,Married,48,3,Not Graduate,0
+3324,618,343,Employed,Married,48,0,Graduate,0
+11347,236,760,Employed,Single,36,1,Not Graduate,1
+12019,982,577,Employed,Single,12,1,Graduate,1
+5141,787,720,Employed,Single,24,2,Graduate,1
+9419,939,652,Employed,Single,36,3,Not Graduate,1
+5486,597,814,Employed,Married,48,4,Graduate,1
+3810,926,318,Self-employed,Married,12,3,Graduate,0
+8588,826,322,Employed,Married,60,1,Not Graduate,1
+4923,576,712,Employed,Single,24,4,Not Graduate,1
+7301,693,329,Unemployed,Married,48,3,Not Graduate,1
+12406,322,407,Employed,Married,36,3,Graduate,1
+6186,471,666,Employed,Single,12,4,Not Graduate,1
+10905,501,580,Self-employed,Single,24,1,Not Graduate,1
+7977,542,427,Employed,Single,12,3,Not Graduate,1
+13794,589,528,Self-employed,Married,60,4,Not Graduate,1
+14326,714,410,Self-employed,Married,36,1,Graduate,1
+13714,372,435,Employed,Single,12,4,Not Graduate,1
+6268,625,661,Self-employed,Married,48,4,Graduate,1
+6748,258,485,Employed,Single,36,3,Not Graduate,1
+6849,251,428,Employed,Single,48,1,Graduate,1
+11435,719,560,Employed,Married,12,3,Graduate,1
+5709,287,814,Employed,Single,36,0,Graduate,1
+11273,912,748,Unemployed,Single,48,0,Not Graduate,1
+8619,197,403,Employed,Single,60,1,Graduate,1
+10647,230,782,Employed,Married,60,4,Not Graduate,1
+11086,904,523,Employed,Single,12,3,Not Graduate,1
+11576,270,790,Employed,Single,36,3,Not Graduate,1
+12150,282,772,Employed,Single,24,1,Not Graduate,1
+5072,463,309,Employed,Single,36,1,Not Graduate,1
+8530,138,704,Self-employed,Single,60,0,Graduate,1
+12188,626,601,Employed,Single,48,2,Not Graduate,1
+14477,987,530,Employed,Single,24,1,Graduate,1
+2504,596,365,Employed,Married,12,2,Graduate,0
+3214,615,411,Employed,Married,24,1,Graduate,0
+3531,448,312,Unemployed,Single,12,4,Graduate,0
+13632,496,692,Employed,Married,24,4,Graduate,1
+9576,821,799,Employed,Married,12,0,Graduate,1
+2823,260,533,Employed,Single,12,0,Graduate,1
+2928,115,613,Self-employed,Married,24,2,Not Graduate,1
+7029,592,311,Self-employed,Single,24,1,Graduate,1
+2133,525,508,Employed,Single,12,3,Not Graduate,0
+4105,207,313,Self-employed,Single,60,0,Graduate,1
+5627,993,717,Self-employed,Single,24,3,Graduate,1
+14972,549,736,Unemployed,Single,36,3,Graduate,1
+8316,410,676,Self-employed,Married,48,1,Graduate,1
+3852,838,319,Employed,Single,12,2,Not Graduate,0
+6910,269,369,Employed,Married,12,1,Not Graduate,1
+6175,645,510,Employed,Single,48,0,Not Graduate,1
+13125,513,400,Employed,Single,60,3,Graduate,1
+13476,350,431,Unemployed,Single,48,1,Graduate,1
+14490,858,680,Employed,Married,24,1,Graduate,1
+13003,880,431,Employed,Single,48,1,Not Graduate,1
+7348,240,319,Self-employed,Single,12,0,Graduate,1
+11442,373,835,Employed,Single,48,2,Not Graduate,1
+13704,515,526,Employed,Single,36,1,Not Graduate,1
+8190,707,453,Employed,Married,24,0,Graduate,1
+3256,838,768,Employed,Single,48,3,Graduate,0
+5376,990,704,Self-employed,Married,12,4,Not Graduate,1
+7645,138,501,Employed,Single,24,0,Not Graduate,1
+5486,913,337,Employed,Married,12,4,Not Graduate,0
+5584,128,487,Employed,Married,60,1,Graduate,1
+11588,576,356,Employed,Single,36,1,Graduate,1
+13829,417,319,Self-employed,Single,60,0,Graduate,1
+10053,344,572,Employed,Married,36,4,Graduate,1
+5330,847,418,Employed,Single,48,1,Graduate,0
+4703,796,815,Unemployed,Single,24,3,Graduate,1
+10662,371,520,Self-employed,Single,48,2,Not Graduate,1
+10120,539,825,Employed,Married,36,2,Not Graduate,1
+9114,847,814,Employed,Single,36,1,Not Graduate,1
+3353,338,635,Self-employed,Single,36,4,Graduate,1
+12975,476,354,Self-employed,Single,12,1,Not Graduate,1
+13023,365,799,Employed,Married,24,4,Graduate,1
+7063,458,835,Unemployed,Single,48,3,Graduate,1
+10549,439,461,Employed,Married,48,4,Not Graduate,1
+13211,488,458,Employed,Single,60,1,Graduate,1
+9575,676,487,Employed,Married,36,3,Not Graduate,1
+2667,788,359,Employed,Single,36,0,Not Graduate,0
+6468,102,618,Self-employed,Single,36,2,Graduate,1
+11337,528,510,Employed,Married,48,1,Not Graduate,1
+8819,241,705,Employed,Married,60,1,Not Graduate,1
+14377,475,408,Unemployed,Married,12,1,Not Graduate,1
+5719,769,375,Employed,Single,24,3,Not Graduate,0
+4745,423,841,Employed,Single,12,0,Graduate,1
+9483,245,613,Employed,Single,48,4,Not Graduate,1
+2539,392,416,Employed,Single,36,0,Not Graduate,0
+12971,764,318,Employed,Married,24,3,Not Graduate,1
+6964,531,731,Self-employed,Single,48,1,Graduate,1
+14328,804,649,Employed,Single,48,2,Not Graduate,1
+6835,684,482,Employed,Single,48,1,Graduate,1
+5775,498,412,Self-employed,Single,24,4,Not Graduate,1
+8042,916,482,Self-employed,Single,24,2,Not Graduate,1
+9102,988,780,Employed,Single,60,1,Not Graduate,1
+9312,443,445,Employed,Single,60,2,Graduate,1
+7320,239,412,Employed,Married,12,0,Graduate,1
+8132,286,775,Employed,Single,24,3,Graduate,1
+9891,904,602,Employed,Single,24,1,Graduate,1
+12700,160,417,Employed,Single,24,4,Graduate,1
+4779,479,460,Unemployed,Single,60,0,Graduate,1
+2924,809,700,Employed,Married,48,1,Not Graduate,0
+13148,906,497,Self-employed,Married,36,0,Graduate,1
+3581,539,559,Employed,Married,60,4,Not Graduate,1
+9714,418,346,Self-employed,Married,24,1,Graduate,1
+5324,401,698,Self-employed,Married,60,4,Graduate,1
+14677,443,377,Self-employed,Married,12,2,Graduate,1
+7713,110,423,Employed,Single,24,4,Not Graduate,1
+9026,161,374,Employed,Married,12,2,Graduate,1
+2255,944,436,Employed,Married,24,1,Graduate,0
+6804,325,699,Self-employed,Single,60,2,Not Graduate,1
+3838,252,804,Employed,Married,48,1,Not Graduate,1
+12136,810,799,Employed,Single,36,1,Not Graduate,1
+2009,663,437,Employed,Single,12,3,Not Graduate,0
+4871,871,349,Employed,Married,60,1,Graduate,0
+10989,670,553,Employed,Single,48,2,Not Graduate,1
+9409,683,725,Employed,Married,60,3,Graduate,1
+9418,759,846,Unemployed,Married,12,3,Graduate,1
+7124,960,601,Self-employed,Single,36,1,Not Graduate,1
+3015,674,648,Unemployed,Single,60,4,Graduate,0
+12016,409,348,Employed,Married,24,4,Not Graduate,1
+14661,984,373,Unemployed,Single,48,3,Graduate,1
+13328,342,560,Self-employed,Single,60,1,Not Graduate,1
+4193,592,655,Self-employed,Married,48,4,Not Graduate,1
+10415,465,559,Self-employed,Married,24,1,Not Graduate,1
+9449,429,594,Employed,Single,36,1,Not Graduate,1
+6158,206,612,Self-employed,Married,36,3,Not Graduate,1
+5925,325,481,Employed,Married,24,3,Not Graduate,1
+8970,924,663,Employed,Married,48,0,Graduate,1
+8938,317,487,Employed,Married,60,4,Graduate,1
+6784,852,842,Unemployed,Married,24,4,Graduate,1
+6000,605,847,Unemployed,Married,12,4,Not Graduate,1
+3633,358,707,Unemployed,Married,48,2,Graduate,1
+12344,987,713,Self-employed,Single,36,1,Not Graduate,1
+9266,873,641,Employed,Married,24,3,Graduate,1
+10702,616,519,Employed,Single,36,4,Graduate,1
+2384,872,462,Employed,Single,48,0,Not Graduate,0
+2404,153,519,Employed,Single,36,4,Graduate,1
+10175,146,569,Employed,Married,24,1,Graduate,1
+14805,826,699,Employed,Married,48,1,Graduate,1
+14763,788,481,Employed,Single,12,3,Not Graduate,1
+4000,620,504,Unemployed,Married,24,2,Graduate,0
+12948,198,527,Employed,Single,60,3,Not Graduate,1
+11860,119,549,Unemployed,Married,24,4,Graduate,1
+7989,989,740,Self-employed,Married,48,0,Graduate,1
+3460,852,832,Employed,Single,24,3,Graduate,1
+9190,672,495,Employed,Single,12,2,Graduate,1
+9140,990,818,Employed,Single,12,3,Not Graduate,1
+5636,589,369,Employed,Married,60,1,Graduate,1
+12916,518,698,Self-employed,Single,36,4,Not Graduate,1
+6809,789,502,Employed,Married,48,4,Not Graduate,1
+6178,949,447,Employed,Married,48,4,Graduate,0
+9245,161,771,Employed,Married,36,4,Graduate,1
+8600,244,498,Unemployed,Single,12,4,Not Graduate,1
+7997,315,725,Self-employed,Single,12,4,Not Graduate,1
+4048,102,791,Self-employed,Single,24,0,Graduate,1
+14338,259,441,Employed,Married,60,2,Graduate,1
+6780,838,612,Self-employed,Married,60,4,Graduate,1
+2716,880,464,Self-employed,Single,60,2,Graduate,0
+9939,219,613,Self-employed,Married,24,4,Graduate,1
+7565,992,320,Unemployed,Married,60,3,Not Graduate,0
+6544,188,381,Employed,Single,36,4,Graduate,1
+6976,428,430,Unemployed,Single,24,1,Graduate,1
+14775,679,604,Unemployed,Single,36,0,Not Graduate,1
+12015,456,670,Employed,Married,24,3,Graduate,1
+12273,709,683,Employed,Married,60,3,Graduate,1
+5419,366,744,Unemployed,Married,36,1,Not Graduate,1
+9239,716,724,Employed,Married,36,4,Graduate,1
+11766,422,460,Employed,Married,36,0,Not Graduate,1
+2249,734,477,Unemployed,Single,24,3,Graduate,0
+10865,640,789,Employed,Married,48,0,Graduate,1
+14725,748,626,Employed,Married,60,3,Graduate,1
+12357,294,588,Employed,Married,36,4,Not Graduate,1
+2770,837,653,Employed,Single,48,3,Not Graduate,0
+14154,431,327,Employed,Single,60,3,Not Graduate,1
+6363,269,342,Employed,Single,60,2,Not Graduate,1
+12176,620,722,Self-employed,Married,36,4,Graduate,1
+3077,562,476,Employed,Single,36,1,Not Graduate,0
+10427,139,828,Self-employed,Single,24,1,Not Graduate,1
+10580,636,793,Self-employed,Single,48,4,Not Graduate,1
+13229,360,497,Employed,Married,48,1,Graduate,1
+9901,494,816,Self-employed,Single,36,4,Graduate,1
+6858,325,813,Employed,Married,60,1,Not Graduate,1
+12040,223,321,Employed,Married,36,2,Not Graduate,1
+8544,137,411,Employed,Single,60,1,Graduate,1
+6719,427,356,Unemployed,Married,60,3,Not Graduate,1
+4814,350,365,Employed,Single,36,4,Not Graduate,1
+5374,275,397,Employed,Married,12,0,Not Graduate,1
+13470,701,443,Self-employed,Single,48,0,Not Graduate,1
+3252,553,734,Employed,Single,60,4,Graduate,1
+8996,136,385,Employed,Single,60,2,Graduate,1
+14173,415,643,Employed,Married,12,1,Graduate,1
+6673,787,593,Self-employed,Single,24,2,Not Graduate,1
+12314,895,542,Self-employed,Married,12,0,Not Graduate,1
+6530,692,331,Employed,Single,12,4,Graduate,1
+12342,213,690,Employed,Married,60,4,Graduate,1
+8881,139,576,Employed,Married,48,2,Graduate,1
+8949,400,831,Self-employed,Single,12,2,Not Graduate,1
+11521,323,453,Employed,Single,24,1,Graduate,1
+8241,417,682,Employed,Single,36,3,Not Graduate,1
+10017,448,367,Employed,Single,12,3,Not Graduate,1
+8941,214,513,Employed,Single,12,1,Graduate,1
+11550,797,675,Employed,Married,24,3,Graduate,1
+9002,422,512,Employed,Single,48,0,Not Graduate,1
+12674,667,378,Employed,Single,12,3,Graduate,1
+14734,139,680,Self-employed,Married,12,1,Graduate,1
+12209,965,357,Employed,Single,48,3,Not Graduate,1
+3331,139,325,Unemployed,Single,24,4,Not Graduate,1
+14536,958,746,Employed,Married,12,2,Not Graduate,1
+6261,848,365,Self-employed,Single,48,0,Not Graduate,0
+9648,388,553,Self-employed,Single,12,4,Not Graduate,1
+11550,361,343,Employed,Single,36,4,Graduate,1
+7115,315,396,Employed,Married,60,1,Not Graduate,1
+6637,246,526,Self-employed,Single,36,2,Not Graduate,1
+6854,435,735,Employed,Married,12,2,Not Graduate,1
+5177,267,678,Unemployed,Single,24,0,Graduate,1
+9730,191,477,Employed,Married,60,1,Not Graduate,1
+12320,452,726,Unemployed,Single,36,0,Not Graduate,1
+4180,670,606,Employed,Married,48,3,Not Graduate,1
+6892,670,803,Self-employed,Married,24,4,Graduate,1
+9043,915,567,Self-employed,Married,36,0,Not Graduate,1
+2137,780,307,Self-employed,Married,48,4,Not Graduate,0
+8327,880,807,Employed,Married,12,1,Not Graduate,1
+5472,462,775,Self-employed,Married,48,3,Graduate,1
+7449,656,596,Employed,Single,36,1,Graduate,1
+4832,444,463,Self-employed,Single,36,3,Graduate,1
+5579,792,784,Employed,Married,12,3,Graduate,1
+7971,269,371,Unemployed,Married,48,4,Not Graduate,1
+13223,455,537,Employed,Married,48,1,Not Graduate,1
+6164,290,403,Self-employed,Married,12,1,Graduate,1
+12785,766,509,Unemployed,Single,48,0,Graduate,1
+9941,521,767,Self-employed,Married,12,1,Not Graduate,1
+7569,799,753,Employed,Single,24,0,Not Graduate,1
+6300,106,567,Employed,Single,36,2,Graduate,1
+8269,232,685,Unemployed,Married,24,2,Graduate,1
+5818,846,686,Employed,Married,60,2,Graduate,1
+14330,656,558,Employed,Single,60,1,Graduate,1
+14015,925,582,Self-employed,Single,60,1,Not Graduate,1
+14234,860,339,Self-employed,Married,12,0,Graduate,1
+3906,130,785,Employed,Married,48,3,Graduate,1
+8254,634,519,Self-employed,Married,24,0,Not Graduate,1
+2760,525,428,Self-employed,Single,24,2,Not Graduate,0
+9830,493,819,Employed,Single,24,0,Not Graduate,1
+9350,771,559,Unemployed,Married,24,3,Not Graduate,1
+8238,462,665,Employed,Single,60,1,Not Graduate,1
+8090,536,843,Employed,Single,24,0,Graduate,1
+13637,769,823,Employed,Married,48,2,Graduate,1
+8031,650,315,Employed,Married,60,2,Graduate,1
+9687,181,428,Unemployed,Single,24,1,Not Graduate,1
+11091,455,408,Employed,Single,12,0,Graduate,1
+14647,357,832,Employed,Married,36,3,Not Graduate,1
+13139,817,568,Employed,Married,36,1,Graduate,1
+11911,688,461,Employed,Married,36,0,Graduate,1
+10472,623,559,Employed,Married,60,4,Not Graduate,1
+13458,394,401,Employed,Married,24,2,Not Graduate,1
+3887,323,805,Employed,Single,60,3,Graduate,1
+5266,624,546,Unemployed,Single,48,3,Graduate,1
+2666,145,836,Employed,Single,12,3,Graduate,1
+6188,766,430,Employed,Single,12,2,Graduate,1
+2671,212,652,Employed,Married,36,0,Graduate,1
+12161,332,495,Self-employed,Married,36,1,Not Graduate,1
+14348,116,681,Employed,Married,36,0,Not Graduate,1
+8777,459,526,Employed,Single,24,1,Not Graduate,1
+13314,322,775,Employed,Single,48,3,Not Graduate,1
+9570,965,776,Unemployed,Single,48,0,Graduate,1
+9956,799,564,Employed,Married,48,3,Graduate,1
+7124,547,671,Self-employed,Single,48,4,Not Graduate,1
