@@ -1,0 +1,81 @@
+================================================================
+ Reference Papers - Source Links
+ (Cited in IEEE_MBA_Article.docx and MBA_Project_Report.docx)
+================================================================
+
+IMPORTANT - I could not embed the actual paper PDFs in this zip
+because: (1) my sandbox can only download from a few coding-related
+domains (not journal/publisher sites), and (2) most of these are
+copyrighted journal articles that cannot be redistributed.
+Please download each PDF yourself using the links below and place
+it in this folder before burning the CD.
+
+----------------------------------------------------------------
+[1] Agrawal & Srikant (1994) - Fast Algorithms for Mining
+    Association Rules in Large Databases
+    STATUS: FREE - official VLDB proceedings PDF
+    LINK: https://www.vldb.org/conf/1994/P487.PDF
+
+----------------------------------------------------------------
+[2] Chen, Sain & Guo (2012) - Data mining for the online retail
+    industry: A case study of RFM model-based customer
+    segmentation
+    DOI: https://doi.org/10.1057/dbm.2012.17
+    STATUS: Paywalled on Springer; a free author preprint is
+    available via LSBU Open Research:
+    LINK: https://openresearch.lsbu.ac.uk/item/87978
+
+----------------------------------------------------------------
+[3] Hoque, Islam & Mohtasim (2024) - Optimizing Decision-Making
+    Through Customer-Centric Market Basket Analysis
+    Journal of Operational and Strategic Analytics, 2(2), 72-83
+    STATUS: FREE - Open Access (CC BY 4.0)
+    LINK: https://doi.org/10.56578/josa020201
+    (Also on ResearchGate / Scribd as free download)
+
+----------------------------------------------------------------
+[4] Vaishampayan et al. (2022) - "Efficient market basket
+    analysis using association rule mining" (Springer LNNS)
+
+    *** CITATION ACCURACY ISSUE ***
+    I could not find a paper with this exact title/series. The
+    closest real match is:
+    Vaishampayan, S., Singh, G., Hebasur, V., Kute, R. (2022).
+    "Market Basket Analysis Recommender System using Apriori
+    Algorithm." Lecture Notes in Electrical Engineering, vol 853
+    (NOT "Lecture Notes in Networks and Systems").
+    DOI: https://doi.org/10.1007/978-981-16-9885-9_38
+    Recommend double-checking/correcting this reference before
+    submission - an incorrect title/series can cost marks.
+
+----------------------------------------------------------------
+[5] UCI Machine Learning Repository - Online Retail II Dataset
+    STATUS: FREE - dataset page (not a paper)
+    LINK: https://archive.ics.uci.edu/dataset/502/online+retail+ii
+
+----------------------------------------------------------------
+[6] Kannan & Immanuel (2026) - "An improved Apriori algorithm
+    for market basket analysis" (Springer)
+
+    *** CITATION ACCURACY ISSUE ***
+    I could not find a paper with this exact title. The closest
+    real match is:
+    Kannan, R., Asher Josh Immanuel, K. (2026). "Leveraging
+    Market Basket Analysis and Clustering for Personalized
+    Retail Recommendations: A Case Study of a Local Supermarket."
+    In: Artificial Intelligence Based Smart and Secured
+    Applications (ASCIS 2025), CCIS vol 2821, Springer.
+    DOI: https://doi.org/10.1007/978-3-032-17840-4_22
+    Recommend double-checking/correcting this reference before
+    submission.
+
+================================================================
+SUMMARY
+================================================================
+- Refs [1], [3], [5] are free - download directly from the links
+  above and add to this folder.
+- Ref [2] has a free preprint - use the LSBU link.
+- Refs [4] and [6] have title/series mismatches in your current
+  reference list - verify and correct the citations, then access
+  the corrected papers via your university library (Springer
+  subscription) if a full PDF is required.
