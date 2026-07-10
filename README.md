@@ -2,12 +2,18 @@
 
 This repository contains assignments, lab manuals, and code files for various courses in the BS-AI (Bachelor of Science in Artificial Intelligence) program.
 
+## Repository Overview
+
+- **Primary Language**: Jupyter Notebook (96.2%)
+- **Secondary Languages**: C++ (2%), Python (1.6%), Other (0.2%)
+
 ## Table of Contents
 
 - [Repository Structure](#repository-structure)
   - [Third Semester](#third-semester)
   - [Fourth Semester](#fourth-semester)
   - [Fifth Semester](#fifth-semester)
+  - [Sixth Semester](#sixth-semester)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
@@ -28,9 +34,16 @@ This repository contains assignments, lab manuals, and code files for various co
 ### Fifth Semester
 - **Programming for AI**: Course materials and assignments
 
+### Sixth Semester
+- **Data Mining**: Collaborative group projects including:
+  - Air Quality Prediction using Machine Learning and Data Mining Techniques
+  - Traffic Accident Analysis
+
 ## Usage
 
 Each folder contains relevant assignments and code files for the respective courses. Navigate to the appropriate semester and course folder to access the materials.
+
+Most projects are implemented as **Jupyter Notebooks** for interactive learning and documentation.
 
 ## Contributing
 
