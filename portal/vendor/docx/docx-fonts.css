@@ -1,0 +1,32 @@
+/* Word-document fonts. Each face first tries the font installed on the visitor's device (local()),
+   then a metric-compatible stand-in bundled in ./fonts (same advance widths, so line breaks and
+   page breaks match Word). Faces are fetched only when a document actually uses them.
+   Licences: ../licenses/font-docx-metric-compatible-LICENSE.txt (SIL OFL 1.1). Generated; edit with care. */
+@font-face { font-family: 'Calibri'; font-style: normal; font-weight: 400; font-display: swap; src: local('Calibri'), url('fonts/Carlito-Regular.woff2') format('woff2'); }
+@font-face { font-family: 'Calibri'; font-style: normal; font-weight: 700; font-display: swap; src: local('Calibri Bold'), local('Calibri-Bold'), url('fonts/Carlito-Bold.woff2') format('woff2'); }
+@font-face { font-family: 'Calibri'; font-style: italic; font-weight: 400; font-display: swap; src: local('Calibri Italic'), local('Calibri-Italic'), url('fonts/Carlito-Italic.woff2') format('woff2'); }
+@font-face { font-family: 'Calibri'; font-style: italic; font-weight: 700; font-display: swap; src: local('Calibri Bold Italic'), local('Calibri-BoldItalic'), url('fonts/Carlito-BoldItalic.woff2') format('woff2'); }
+@font-face { font-family: 'Aptos'; font-style: normal; font-weight: 400; font-display: swap; src: local('Aptos'), url('fonts/Carlito-Regular.woff2') format('woff2'); }
+@font-face { font-family: 'Aptos'; font-style: normal; font-weight: 700; font-display: swap; src: local('Aptos Bold'), local('Aptos-Bold'), url('fonts/Carlito-Bold.woff2') format('woff2'); }
+@font-face { font-family: 'Aptos'; font-style: italic; font-weight: 400; font-display: swap; src: local('Aptos Italic'), local('Aptos-Italic'), url('fonts/Carlito-Italic.woff2') format('woff2'); }
+@font-face { font-family: 'Aptos'; font-style: italic; font-weight: 700; font-display: swap; src: local('Aptos Bold Italic'), local('Aptos-BoldItalic'), url('fonts/Carlito-BoldItalic.woff2') format('woff2'); }
+@font-face { font-family: 'Cambria'; font-style: normal; font-weight: 400; font-display: swap; src: local('Cambria'), url('fonts/Caladea-Regular.woff2') format('woff2'); }
+@font-face { font-family: 'Cambria'; font-style: normal; font-weight: 700; font-display: swap; src: local('Cambria Bold'), local('Cambria-Bold'), url('fonts/Caladea-Bold.woff2') format('woff2'); }
+@font-face { font-family: 'Cambria'; font-style: italic; font-weight: 400; font-display: swap; src: local('Cambria Italic'), local('Cambria-Italic'), url('fonts/Caladea-Italic.woff2') format('woff2'); }
+@font-face { font-family: 'Cambria'; font-style: italic; font-weight: 700; font-display: swap; src: local('Cambria Bold Italic'), local('Cambria-BoldItalic'), url('fonts/Caladea-BoldItalic.woff2') format('woff2'); }
+@font-face { font-family: 'Arial'; font-style: normal; font-weight: 400; font-display: swap; src: local('Arial'), url('fonts/LiberationSans-Regular.woff2') format('woff2'); }
+@font-face { font-family: 'Arial'; font-style: normal; font-weight: 700; font-display: swap; src: local('Arial Bold'), local('Arial-Bold'), url('fonts/LiberationSans-Bold.woff2') format('woff2'); }
+@font-face { font-family: 'Arial'; font-style: italic; font-weight: 400; font-display: swap; src: local('Arial Italic'), local('Arial-Italic'), url('fonts/LiberationSans-Italic.woff2') format('woff2'); }
+@font-face { font-family: 'Arial'; font-style: italic; font-weight: 700; font-display: swap; src: local('Arial Bold Italic'), local('Arial-BoldItalic'), url('fonts/LiberationSans-BoldItalic.woff2') format('woff2'); }
+@font-face { font-family: 'Helvetica'; font-style: normal; font-weight: 400; font-display: swap; src: local('Helvetica'), url('fonts/LiberationSans-Regular.woff2') format('woff2'); }
+@font-face { font-family: 'Helvetica'; font-style: normal; font-weight: 700; font-display: swap; src: local('Helvetica Bold'), local('Helvetica-Bold'), url('fonts/LiberationSans-Bold.woff2') format('woff2'); }
+@font-face { font-family: 'Helvetica'; font-style: italic; font-weight: 400; font-display: swap; src: local('Helvetica Italic'), local('Helvetica-Italic'), url('fonts/LiberationSans-Italic.woff2') format('woff2'); }
+@font-face { font-family: 'Helvetica'; font-style: italic; font-weight: 700; font-display: swap; src: local('Helvetica Bold Italic'), local('Helvetica-BoldItalic'), url('fonts/LiberationSans-BoldItalic.woff2') format('woff2'); }
+@font-face { font-family: 'Times New Roman'; font-style: normal; font-weight: 400; font-display: swap; src: local('Times New Roman'), local('TimesNewRoman'), url('fonts/LiberationSerif-Regular.woff2') format('woff2'); }
+@font-face { font-family: 'Times New Roman'; font-style: normal; font-weight: 700; font-display: swap; src: local('Times New Roman Bold'), local('TimesNewRoman-Bold'), local('TimesNewRoman Bold'), local('TimesNewRoman-Bold'), url('fonts/LiberationSerif-Bold.woff2') format('woff2'); }
+@font-face { font-family: 'Times New Roman'; font-style: italic; font-weight: 400; font-display: swap; src: local('Times New Roman Italic'), local('TimesNewRoman-Italic'), local('TimesNewRoman Italic'), local('TimesNewRoman-Italic'), url('fonts/LiberationSerif-Italic.woff2') format('woff2'); }
+@font-face { font-family: 'Times New Roman'; font-style: italic; font-weight: 700; font-display: swap; src: local('Times New Roman Bold Italic'), local('TimesNewRoman-BoldItalic'), local('TimesNewRoman Bold Italic'), local('TimesNewRoman-BoldItalic'), url('fonts/LiberationSerif-BoldItalic.woff2') format('woff2'); }
+@font-face { font-family: 'Courier New'; font-style: normal; font-weight: 400; font-display: swap; src: local('Courier New'), local('CourierNew'), url('fonts/LiberationMono-Regular.woff2') format('woff2'); }
+@font-face { font-family: 'Courier New'; font-style: normal; font-weight: 700; font-display: swap; src: local('Courier New Bold'), local('CourierNew-Bold'), local('CourierNew Bold'), local('CourierNew-Bold'), url('fonts/LiberationMono-Bold.woff2') format('woff2'); }
+@font-face { font-family: 'Courier New'; font-style: italic; font-weight: 400; font-display: swap; src: local('Courier New Italic'), local('CourierNew-Italic'), local('CourierNew Italic'), local('CourierNew-Italic'), url('fonts/LiberationMono-Italic.woff2') format('woff2'); }
+@font-face { font-family: 'Courier New'; font-style: italic; font-weight: 700; font-display: swap; src: local('Courier New Bold Italic'), local('CourierNew-BoldItalic'), local('CourierNew Bold Italic'), local('CourierNew-BoldItalic'), url('fonts/LiberationMono-BoldItalic.woff2') format('woff2'); }
