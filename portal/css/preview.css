@@ -1,0 +1,144 @@
+/* ---- file preview pane ------------------------------------------------------------------------
+   <html data-preview="closed|pane|full">  data-preview-cover (pane hides the page)  --preview-w (pane width)
+   Wide screens: the page is pushed left by the pane's width and stays usable.
+   Full screen / small screens: the pane covers everything; the page behind is inert and keeps its state. */
+
+:root { --preview-w: 560px; --preview-ease: cubic-bezier(0.22, 1, 0.36, 1); --preview-time: 320ms; }
+
+.app-shell { transition: margin-right var(--preview-time) var(--preview-ease); }
+html[data-preview='pane'] .app-shell { margin-right: var(--preview-w); }
+
+.preview-pane {
+  position: fixed; inset: 0 0 0 auto; width: var(--preview-w); z-index: 60;
+  display: flex; background: var(--paper); border-left: 1px solid var(--border-strong);
+  box-shadow: -22px 0 44px -34px rgba(20, 16, 18, 0.45);
+  transition: transform var(--preview-time) var(--preview-ease), width var(--preview-time) var(--preview-ease);
+  container-type: inline-size; overscroll-behavior: contain;
+}
+.preview-pane:focus { outline: none; }
+html[data-preview='closed'] .preview-pane {
+  transform: translateX(105%); visibility: hidden; box-shadow: none;
+  transition: transform var(--preview-time) var(--preview-ease), visibility 0s linear var(--preview-time);
+}
+html[data-preview='full'] .preview-pane, html[data-preview-cover] .preview-pane { width: 100vw; border-left: 0; box-shadow: none; }
+/* Page scroll is locked (and its scrollbar removed) only once the pane fully covers it; see previewPane.js */
+html.preview-locked { overflow: hidden; }
+
+html.is-resizing, html.is-resizing * { cursor: col-resize !important; user-select: none !important; }
+html.is-resizing .app-shell, html.is-resizing .preview-pane { transition: none !important; }
+html.is-resizing .preview-body { pointer-events: none; }
+
+.preview-resizer { position: absolute; left: -5px; top: 0; bottom: 0; width: 11px; cursor: col-resize; z-index: 8; touch-action: none; }
+.preview-resizer::after { content: ''; position: absolute; left: 4px; top: 0; bottom: 0; width: 3px; border-radius: 3px; background: transparent; transition: background-color var(--duration) var(--ease); }
+.preview-resizer:hover::after, .preview-resizer:focus-visible::after, html.is-resizing .preview-resizer::after { background: var(--brand); }
+.preview-resizer:focus-visible { outline: none; }
+html[data-preview='full'] .preview-resizer { display: none; }
+
+.preview-pane__inner { position: relative; flex: 1; min-width: 0; display: flex; flex-direction: column; }
+
+/* ---- header ----------------------------------------------------------------------------------- */
+.preview-head {
+  display: flex; align-items: center; gap: var(--space-2); flex: none; min-height: 3.6rem;
+  padding: var(--space-2) var(--space-3); border-bottom: 1px solid var(--border); background: var(--paper);
+}
+.preview-back { display: none; margin-left: calc(var(--space-2) * -1); }
+.preview-title { display: flex; align-items: center; gap: var(--space-3); min-width: 0; flex: 1; }
+.preview-title__text { min-width: 0; }
+.preview-title__name { font-weight: 600; font-size: var(--text-sm); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.preview-title__meta { font-size: var(--text-xs); color: var(--ink-faint); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.preview-actions { display: flex; align-items: center; gap: 2px; flex: none; }
+.preview-actions .btn-icon { padding: 0.5em; }
+.preview-actions .badge-restricted { padding-inline: var(--space-2); }
+.preview-slot { display: inline-flex; }
+.preview-step { display: flex; align-items: center; margin-right: var(--space-1); padding: 0 2px; border: 1px solid var(--border); border-radius: var(--radius-full); }
+.preview-step[hidden], .preview-filesbtn[hidden], .preview-fullbtn[hidden] { display: none; }
+.preview-step .btn-icon { padding: 0.35em; font-size: var(--text-md); }
+.preview-step__count { font-size: var(--text-xs); color: var(--ink-faint); min-width: 3.4em; text-align: center; font-variant-numeric: tabular-nums; }
+.preview-fullbtn[aria-pressed='true'] { color: var(--accent); background: var(--accent-wash); }
+
+@container (max-width: 560px) {
+  .preview-title__meta { display: none; }
+  .preview-actions .btn-icon { padding: 0.42em; }
+  .preview-step__count { display: none; }
+  .preview-step { border: 0; }
+}
+@container (max-width: 480px) {
+  .preview-title > :first-child:not(.preview-title__text) { display: none; }      /* file name outranks the type icon */
+  .preview-title__name { font-size: var(--text-sm); }
+  .preview-head { gap: var(--space-1); padding-inline: var(--space-2); }
+}
+@container (max-width: 440px) { .preview-slot:first-of-type { display: none; } }
+
+/* ---- type-specific controls: only present when the viewer provides some ---------------------------- */
+.preview-tools { flex: none; display: flex; justify-content: center; border-bottom: 1px solid var(--border); background: color-mix(in srgb, var(--paper-sunken) 70%, var(--paper)); }
+.preview-tools[data-empty='true'] { display: none; }
+.preview-tools__set { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 0 var(--space-1); flex: 1; min-width: 0; padding: 0.3rem var(--space-2); }
+.preview-tools__set > *, .preview-tools .pdf-controls > * { flex: none; }
+.preview-tools__set:empty { display: none; }
+.preview-tools .pdf-controls { position: static; flex: 1; flex-wrap: wrap; justify-content: center; gap: 0 var(--space-1); border: 0; background: none; backdrop-filter: none; padding: 0; }
+.preview-tools .btn-icon { padding: 0.45em; font-size: var(--text-md); }
+.preview-tools .btn:not(.btn-icon) { padding: 0.35em 0.8em; }
+.tool-sep { width: 1px; height: 1.1rem; background: var(--border-strong); margin-inline: var(--space-1); flex: none; }
+.tool-label { font-size: var(--text-xs); color: var(--ink-faint); min-width: 3.3em; text-align: center; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.tool-chip { font-size: var(--text-xs); font-weight: 600; color: var(--ink-soft); padding: 0.25em 0.7em; border-radius: var(--radius-full); background: var(--paper-sunken); white-space: nowrap; }
+.btn.is-on { color: var(--accent); background: var(--accent-wash); }
+
+/* ---- file switcher ---------------------------------------------------------------------------------- */
+.preview-files {
+  position: absolute; z-index: 9; top: 3.6rem; right: var(--space-3); width: min(25rem, calc(100% - 1.5rem)); max-height: 62%;
+  display: flex; flex-direction: column; background: var(--paper-raised); border: 1px solid var(--border-strong); border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-overlay); overflow: hidden; animation: preview-pop 160ms var(--ease);
+}
+.preview-files[hidden] { display: none; }
+.preview-files__head { display: flex; justify-content: space-between; gap: var(--space-3); padding: var(--space-3) var(--space-4); font-size: var(--text-xs); color: var(--ink-faint); border-bottom: 1px solid var(--border); }
+.preview-files__head strong { color: var(--ink); font-size: var(--text-sm); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.preview-files__filter { margin: var(--space-2) var(--space-3) 0; padding: 0.5em 0.9em; border: 1px solid var(--border-strong); border-radius: var(--radius-full); background: var(--paper); font-size: var(--text-sm); }
+.preview-files__list { overflow: auto; padding: var(--space-2); }
+.preview-files__item { display: flex; align-items: center; gap: var(--space-3); width: 100%; padding: var(--space-2) var(--space-3); border-radius: var(--radius); text-align: left; }
+.preview-files__item:hover, .preview-files__item:focus-visible { background: var(--paper-sunken); }
+.preview-files__item[aria-current='true'] { background: var(--accent-wash); box-shadow: inset 3px 0 0 var(--brand); color: var(--accent-ink); }
+.preview-files__name { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: var(--text-sm); font-weight: 500; }
+.preview-files__size { font-size: var(--text-xs); color: var(--ink-faint); flex: none; }
+.preview-files__empty { padding: var(--space-4); font-size: var(--text-sm); color: var(--ink-faint); }
+@keyframes preview-pop { from { opacity: 0; transform: translateY(-4px) scale(0.985); } to { opacity: 1; transform: none; } }
+
+/* ---- body: every viewer fills the pane instead of assuming a full page ----------------------------------- */
+.preview-body { flex: 1; min-height: 0; display: flex; flex-direction: column; background: var(--paper-sunken); }
+.preview-host { flex: 1; min-height: 0; display: flex; flex-direction: column; overflow: auto; position: relative; animation: preview-fade 180ms var(--ease); }
+@keyframes preview-fade { from { opacity: 0; } to { opacity: 1; } }
+.preview-host > .state { margin: auto; }
+
+.preview-host > .pdf-scroll, .preview-host > .docx-scroll, .preview-host > .sheet-scroll, .preview-host > .code-view,
+.preview-host > .txt-plain, .preview-host > .image-stage, .preview-host > .html-frame-wrap, .preview-host > .pptx-wrap, .preview-host > .media-stage {
+  flex: 1 1 0; min-height: 0; max-height: none;
+}
+.preview-host .docx-scroll, .preview-host .pdf-scroll { padding: var(--space-4); }
+.preview-host .html-frame-wrap iframe { height: 100%; position: absolute; inset: 0; }
+.preview-host .archive-list { max-height: none; }
+.preview-host .prose { padding: var(--space-6); max-width: none; }
+.preview-host .notebook { padding: var(--space-4); max-width: none; }
+.preview-host .txt-plain { padding: var(--space-5); }
+/* The draw.io stage is itself a flex child of the pane. Give it the available height:
+   otherwise its auto-sized content can leave the drawing surface only ~16rem tall,
+   causing diagrams to appear cropped or partially visible in the side preview. */
+.preview-host > .diagram-stage { flex: 1 1 0; min-height: 0; min-width: 0; overflow: hidden; }
+.preview-host .diagram-stage > .diagram-canvas { flex: 1 1 0; height: auto; min-height: 0; min-width: 0; }
+.preview-host .diagram-stage > .diagram-source { flex: 1 1 0; min-height: 0; max-height: none; overflow: auto; }
+.preview-host .sheet-table { font-size: var(--text-xs); }
+
+/* ---- the page behind the pane: mark the open file --------------------------------------------------------- */
+.node-row.is-previewing, .diagram-card.is-previewing, .recent-card.is-previewing, .search-result.is-previewing {
+  background: var(--accent-wash); box-shadow: inset 3px 0 0 var(--brand);
+}
+
+/* ---- small screens and tablets: the pane is a full-screen sheet --------------------------------------------- */
+@media (max-width: 960px) {
+  html[data-preview='pane'] .app-shell { margin-right: 0; }
+  .preview-pane { width: 100vw; border-left: 0; box-shadow: none; }
+  .preview-resizer { display: none; }
+  .preview-back { display: inline-flex; }
+  .preview-head { padding-top: calc(var(--space-2) + env(safe-area-inset-top, 0px)); padding-inline: max(var(--space-3), env(safe-area-inset-left, 0px)) max(var(--space-3), env(safe-area-inset-right, 0px)); }
+  .preview-body { padding-bottom: env(safe-area-inset-bottom, 0px); }
+  .preview-files { right: var(--space-3); left: var(--space-3); width: auto; top: calc(3.6rem + env(safe-area-inset-top, 0px)); max-height: 70%; }
+}
+@media (pointer: coarse) { .preview-actions .btn-icon, .preview-tools .btn-icon { padding: 0.62em; } }

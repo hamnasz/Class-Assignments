@@ -1,0 +1,171 @@
+/* ---- shared viewer bits (the pane that hosts the viewers is in preview.css) ------------------------------ */
+.viewer-pad { padding: var(--space-6); }
+
+/* ---- PDF ---------------------------------------------------------------------------------- */
+.pdf-scroll { position: relative; overflow: auto; padding: var(--space-6); display: flex; flex-direction: column; align-items: center; gap: var(--space-5); background: var(--paper-sunken); }
+.pdf-page { position: relative; background: #fff; box-shadow: var(--shadow-raised); }
+.pdf-page canvas { display: block; }
+.pdf-controls { position: sticky; top: 0; z-index: 5; display: flex; align-items: center; justify-content: center; gap: var(--space-3); padding: var(--space-2); background: color-mix(in srgb, var(--paper-sunken) 90%, transparent); backdrop-filter: blur(6px); border-bottom: 1px solid var(--border); font-size: var(--text-sm); }
+.pdf-controls input[type=number] { width: 3.2rem; text-align: center; border: 1px solid var(--border-strong); border-radius: var(--radius-sm); background: var(--paper-raised); padding: 0.2em; }
+
+/* ---- DOCX --------------------------------------------------------------------------------- */
+/* Layout shell. The pages themselves are styled by the stylesheets docx-preview generates from the
+   document (fonts, headings, tables, numbering ...); rules below only frame them and stop the
+   portal's own element styles from leaking into the document. */
+.docx-scroll { overflow: auto; padding: var(--space-8); background: var(--paper-sunken); }
+.docx-stage { position: relative; margin-inline: auto; }
+.docx-host { position: absolute; top: 0; left: 0; width: max-content; transform-origin: 0 0; }
+.docx-zoom { min-width: 3.2em; text-align: center; font-variant-numeric: tabular-nums; }
+.docx-controls .btn[aria-pressed="true"] { border-color: var(--border-strong); background: var(--paper-sunken); }
+@media (max-width: 640px) { .docx-scroll { padding: var(--space-3); } }
+
+/* The library's own wrapper chrome (grey backdrop, padding) is replaced by the portal's. */
+.docx-scroll .docx-wrapper { background: transparent; padding: 0; gap: var(--space-6); }
+.docx-scroll .docx-wrapper > section.docx { margin: 0; background: #fff; box-shadow: var(--shadow-raised); }
+
+/* A Word page is a closed world: reset everything the portal's <body> would otherwise pass down. Word's
+   defaults: automatic colour (black), single line spacing, no kerning/ligatures, no auto-hyphenation. */
+.docx-scroll .docx-wrapper > section.docx {
+  color: #000; line-height: normal; letter-spacing: normal; word-spacing: normal; text-align: left;
+  text-transform: none; text-indent: 0; text-shadow: none; font-weight: 400; font-style: normal;
+  font-kerning: none; font-variant-ligatures: none; text-rendering: auto; -webkit-font-smoothing: auto;
+  hyphens: manual; -webkit-hyphens: manual; overflow-wrap: normal; white-space: normal;
+}
+/* Neutralise the portal's global element rules (base.css) inside the document. */
+.docx-scroll section.docx *, .docx-scroll section.docx *::before, .docx-scroll section.docx *::after { box-sizing: content-box; }
+.docx-scroll section.docx img, .docx-scroll section.docx svg, .docx-scroll section.docx canvas { display: inline; max-width: none; }
+.docx-scroll section.docx ul, .docx-scroll section.docx ol { list-style: revert; margin: revert; padding: revert; }
+.docx-scroll section.docx a { cursor: pointer; }
+
+/* ---- PPTX --------------------------------------------------------------------------------- */
+.pptx-wrap { background: var(--paper-sunken); padding: var(--space-5); display: flex; align-items: center; justify-content: center; overflow: hidden; }
+.pptx-box { position: relative; flex: none; box-shadow: var(--shadow-raised); background: #000; }
+.pptx-stage { position: absolute; top: 0; left: 0; background: #000; overflow: hidden; transform-origin: 0 0; }
+.pptx-stage .pptx-preview-wrapper-pagination,
+.pptx-stage .pptx-preview-wrapper-next,
+.pptx-stage .pptx-preview-wrapper-prev { display: none !important; }
+
+/* ---- images ------------------------------------------------------------------------------- */
+.image-stage { display: flex; overflow: auto; padding: var(--space-5); background: var(--paper-sunken); cursor: grab; touch-action: pan-x pan-y; }
+.image-stage.is-panning { cursor: grabbing; user-select: none; }
+.image-stage:focus-visible { outline-offset: -3px; }
+.image-canvas { position: relative; flex: none; margin: auto; border-radius: var(--radius-sm); box-shadow: var(--shadow-raised);
+  background-color: #fff;
+  background-image: conic-gradient(#e9e9ec 25%, transparent 0 50%, #e9e9ec 0 75%, transparent 0); background-size: 16px 16px; }
+:root[data-theme='dark'] .image-canvas { background-color: #26222a; background-image: conic-gradient(#322e36 25%, transparent 0 50%, #322e36 0 75%, transparent 0); }
+.image-canvas img { position: absolute; left: 50%; top: 50%; max-width: none; transform-origin: center; user-select: none; -webkit-user-drag: none; }
+
+/* ---- html sandbox ------------------------------------------------------------------------- */
+.html-frame-wrap { position: relative; background: var(--paper-sunken); }
+.html-frame-wrap iframe { width: 100%; height: 100%; min-height: 30rem; border: 0; display: block; background: #fff; }
+
+/* ---- markdown / text ------------------------------------------------------------------------ */
+.prose { padding: var(--space-8); max-width: var(--measure); margin-inline: auto; line-height: var(--leading-relaxed); }
+.prose h1, .prose h2, .prose h3, .prose h4 { margin-top: 1.6em; margin-bottom: 0.5em; }
+.prose h1:first-child, .prose h2:first-child { margin-top: 0; }
+.prose p { margin: 0.9em 0; }
+.prose a { color: var(--accent); border-bottom: 1px solid currentColor; }
+.prose ul, .prose ol { margin: 0.9em 0; padding-left: 1.4em; list-style: revert; }
+.prose blockquote { margin: 1em 0; padding-left: 1em; border-left: 3px solid var(--brand); color: var(--ink-soft); }
+.prose table { border-collapse: collapse; width: 100%; margin: 1.2em 0; font-size: var(--text-sm); }
+.prose th, .prose td { border: 1px solid var(--border); padding: 0.5em 0.75em; text-align: left; }
+.prose th { background: var(--paper-sunken); font-weight: 600; }
+.prose img { border-radius: var(--radius); margin: 1em 0; }
+.prose code { background: var(--paper-sunken); padding: 0.15em 0.4em; border-radius: 4px; font-size: 0.88em; }
+.prose pre { background: var(--paper-sunken); padding: var(--space-4); border-radius: var(--radius); overflow-x: auto; margin: 1.1em 0; }
+.prose pre code { background: none; padding: 0; }
+.prose hr { margin: 2em 0; }
+
+/* ---- notebook ------------------------------------------------------------------------------ */
+.notebook { padding: var(--space-6); max-width: var(--measure); margin-inline: auto; display: flex; flex-direction: column; gap: var(--space-4); }
+.nb-cell { border-radius: var(--radius); }
+.nb-cell--markdown { padding-block: var(--space-2); }
+.nb-cell--code .nb-cell__source { background: var(--paper-sunken); border-radius: var(--radius); padding: var(--space-4); overflow-x: auto; }
+.nb-cell__source, .nb-cell__source pre { font-family: var(--font-mono); font-size: 0.85rem; line-height: 1.6; margin: 0; }
+.nb-cell__label { font-size: var(--text-xs); color: var(--ink-faint); margin-bottom: 0.4em; font-variant-numeric: tabular-nums; }
+.nb-output { margin-top: var(--space-3); border-left: 2px solid var(--brand); padding-left: var(--space-4); }
+.nb-output pre { white-space: pre-wrap; font-family: var(--font-mono); font-size: 0.82rem; color: var(--ink-soft); margin: 0; }
+.nb-output img { border-radius: var(--radius); max-width: 100%; }
+.nb-output--error pre { color: var(--danger); }
+.nb-output table { border-collapse: collapse; font-size: var(--text-sm); }
+.nb-output th, .nb-output td { border: 1px solid var(--border); padding: 0.4em 0.6em; }
+
+/* ---- csv / xlsx table ------------------------------------------------------------------------ */
+.sheet-tabs { display: flex; gap: var(--space-1); overflow-x: auto; scrollbar-width: thin; max-width: 100%; flex: 0 1 auto; }
+.sheet-tab { padding: 0.4em 0.95em; font-size: var(--text-sm); border-radius: var(--radius-full); color: var(--ink-faint); white-space: nowrap; }
+.sheet-tab:hover { background: var(--paper-sunken); color: var(--ink); }
+.sheet-tab[aria-selected='true'] { background: var(--accent-wash); color: var(--accent-ink); font-weight: 600; }
+.sheet-scroll { overflow: auto; background: var(--paper-raised); }
+.sheet-table { border-collapse: collapse; font-size: var(--text-sm); min-width: 100%; }
+.sheet-table th, .sheet-table td { border: 1px solid var(--border); padding: 0.4em 0.7em; white-space: nowrap; }
+.sheet-table thead th { background: var(--paper-sunken); position: sticky; top: 0; font-weight: 600; }
+.sheet-table tbody th { background: var(--paper-sunken); font-weight: 500; color: var(--ink-faint); position: sticky; left: 0; }
+
+/* ---- code and text files ---------------------------------------------------------------------- */
+.code-view { overflow: auto; background: var(--paper-raised); }
+.code-view:focus-visible { outline-offset: -3px; }
+.code-view pre { margin: 0; padding: var(--space-4) var(--space-5); font-family: var(--font-mono); font-size: 0.82rem; line-height: 1.65; min-width: max-content; tab-size: 4; }
+.code-view.is-wrapped pre { min-width: 0; white-space: pre-wrap; overflow-wrap: anywhere; }
+.code-view code.hljs { background: none; padding: 0; display: block; counter-reset: ln; font-family: inherit; }
+.code-line { display: block; min-height: 1.65em; }
+/* line numbers: generated content, so they are never copied and wrapped lines hang under the code */
+.code-view.has-numbers { --gutter: calc(var(--digits, 2) * 1ch + 2.2ch); }
+.code-view.has-numbers .code-line { padding-left: var(--gutter); text-indent: calc(-1 * var(--gutter)); }
+.code-view.has-numbers .code-line::before {
+  counter-increment: ln; content: counter(ln); display: inline-block; width: calc(var(--digits, 2) * 1ch); margin-right: 2.2ch; text-indent: 0;
+  text-align: right; color: var(--ink-faint); user-select: none; -webkit-user-select: none;
+}
+.txt-plain { padding: var(--space-8); white-space: pre-wrap; word-break: break-word; font-family: var(--font-mono); font-size: 0.85rem; line-height: var(--leading-relaxed); overflow: auto; }
+
+/* ---- archive listing ------------------------------------------------------------------------- */
+.archive-list { padding: var(--space-4); max-height: 60vh; overflow: auto; font-family: var(--font-mono); font-size: 0.82rem; }
+.archive-list__row { display: flex; justify-content: space-between; gap: var(--space-4); padding: 0.3em 0; border-bottom: 1px dotted var(--border); }
+
+/* ---- audio / video ------------------------------------------------------------------------------ */
+.media-stage { display: flex; align-items: center; justify-content: center; padding: var(--space-5); min-height: 0; }
+.media-stage--video { background: #000; padding: 0; }
+.media-stage video { width: 100%; height: 100%; max-height: 100%; object-fit: contain; background: #000; }
+.media-card { display: flex; flex-direction: column; align-items: center; gap: var(--space-5); width: min(28rem, 100%); padding: var(--space-8) var(--space-6); border: 1px solid var(--border); border-radius: var(--radius-xl); background: var(--paper-raised); box-shadow: var(--shadow-raised); text-align: center; }
+.media-card audio { width: 100%; }
+.media-card__name { font-weight: 600; word-break: break-word; }
+
+/* ---- fallback for files that can't be previewed ------------------------------------------------------ */
+.file-info { display: flex; flex-direction: column; align-items: center; gap: var(--space-4); max-width: 30rem; padding: var(--space-8) var(--space-6); margin: auto; text-align: center; }
+.file-info__facts { width: 100%; margin: var(--space-2) 0 0; display: grid; grid-template-columns: auto 1fr; gap: var(--space-2) var(--space-4); text-align: left; font-size: var(--text-sm); padding: var(--space-4); border: 1px solid var(--border); border-radius: var(--radius-lg); background: var(--paper-raised); }
+.file-info__facts dt { color: var(--ink-faint); }
+.file-info__facts dd { margin: 0; word-break: break-all; }
+.file-info__actions { display: flex; flex-wrap: wrap; gap: var(--space-2); justify-content: center; }
+
+/* ---- RTF ------------------------------------------------------------------------------------------------ */
+.rtf-scroll { overflow: auto; padding: var(--space-5); }
+.rtf-doc { background: #fff; color: #000; max-width: 52rem; margin: 0 auto; padding: 3rem 3.25rem; box-shadow: var(--shadow-raised); font-family: 'Times New Roman', Times, serif; font-size: 12pt; line-height: 1.25; overflow-wrap: anywhere; }
+.rtf-doc p { margin: 0 0 0.6em; min-height: 1.25em; }
+.rtf-doc table { border-collapse: collapse; margin: 0.6em 0; max-width: 100%; }
+.rtf-doc td { border: 1px solid #888; padding: 0.25em 0.5em; vertical-align: top; }
+.rtf-doc td p { margin: 0; }
+.rtf-doc a { color: #0563c1; text-decoration: underline; }
+.rtf-note { margin: var(--space-4) auto 0; max-width: 52rem; font-size: var(--text-xs); color: var(--ink-faint); text-align: center; }
+@media (max-width: 640px) { .rtf-doc { padding: 1.5rem 1.25rem; } }
+
+/* ---- syntax highlighting (highlight.js classes) ------------------------------------------------------------ */
+:root {
+  --hl-keyword: #a21caf; --hl-string: #166534; --hl-number: #b45309; --hl-comment: #6b7280; --hl-function: #1d4ed8;
+  --hl-type: #0f766e; --hl-attr: #b3122f; --hl-meta: #7c3aed; --hl-regex: #c2410c; --hl-add: rgba(34, 197, 94, 0.16); --hl-del: rgba(239, 68, 68, 0.16);
+}
+:root[data-theme='dark'] {
+  --hl-keyword: #e0a5f2; --hl-string: #8fd18f; --hl-number: #f2b866; --hl-comment: #9a9aa8; --hl-function: #8ab4ff;
+  --hl-type: #62d6c8; --hl-attr: #ff8f9f; --hl-meta: #b9a2ff; --hl-regex: #ffa36b;
+}
+.hljs-keyword, .hljs-selector-tag, .hljs-doctag, .hljs-operator, .hljs-template-tag { color: var(--hl-keyword); }
+.hljs-string, .hljs-regexp.hljs-string, .hljs-addition, .hljs-selector-class, .hljs-selector-id, .hljs-template-variable { color: var(--hl-string); }
+.hljs-number, .hljs-literal, .hljs-symbol, .hljs-bullet, .hljs-variable.constant_ { color: var(--hl-number); }
+.hljs-comment, .hljs-quote, .hljs-formula { color: var(--hl-comment); font-style: italic; }
+.hljs-title, .hljs-title.function_, .hljs-section { color: var(--hl-function); }
+.hljs-built_in, .hljs-type, .hljs-class .hljs-title, .hljs-title.class_ { color: var(--hl-type); }
+.hljs-attr, .hljs-attribute, .hljs-name, .hljs-tag, .hljs-property { color: var(--hl-attr); }
+.hljs-meta, .hljs-meta .hljs-keyword, .hljs-link { color: var(--hl-meta); }
+.hljs-regexp { color: var(--hl-regex); }
+.hljs-addition { background: var(--hl-add); }
+.hljs-deletion { background: var(--hl-del); color: var(--hl-attr); }
+.hljs-strong, .hljs-emphasis { font-weight: 600; }
+.hljs-emphasis { font-style: italic; }
